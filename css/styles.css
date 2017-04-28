@@ -90,3 +90,8 @@ a.page-scroll {
   height: 50px;
   line-height: 50px;
 }
+
+.btn {
+  text-transform: uppercase;
+  background-color: white;
+}
