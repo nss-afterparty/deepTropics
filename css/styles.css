@@ -74,11 +74,19 @@ a.page-scroll {
   margin-bottom: 25px;
 }
 
-
 .blueText {
-    color: #63CCEC;
+  color: #63CCEC;
 }
 
 .pinkText {
   color: #D34A98;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.navbar-fixed-bottom {
+  height: 50px;
+  line-height: 50px;
 }
