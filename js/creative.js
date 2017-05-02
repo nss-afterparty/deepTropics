@@ -61,4 +61,15 @@
         }
     });
 
+    var a = $(".nav").offset().top;
+
+    $(document).scroll(function(){
+        if($(this).scrollTop() > a)
+        {   
+           $('.nav').css({"background":"red"});
+        } else {
+           $('.nav').css({"background":"transparent"});
+        }
+    });
+    
 })(jQuery); // End of use strict

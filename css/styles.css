@@ -1,5 +1,5 @@
 .nav>li>a>img {
-  width: 40%;
+  width: 45%;
 }
 
 .navbar-nav {
@@ -29,7 +29,7 @@ li {
 }
 
 .navbar-default {
-  margin-top: 20px;
+/*  margin-top: 20px;*/
   margin-bottom: 0px;
   border-color: black;
 }
@@ -50,16 +50,16 @@ li {
 
 .navbar-default .navbar-collapse {
   margin-top: 0px;
-  background-color: black;
+  /*background-color: purple;*/
 }
 
 .navbar-default .navbar-collapse {
   margin-top: 0px;
-  background-color: black;
+  background-color: transparent;
 }
 
 .container-fluid>.navbar-header {
-  background-color: black;
+  background-color: transparent;
 }
 
 a.page-scroll {
