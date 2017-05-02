@@ -19,6 +19,10 @@
   margin-top: 10%;
 }
 
+.tropic-news:hover {
+  background-color: #D34A98;
+}
+
 
 /*.navbar-nav > li {
   float: none;
@@ -109,16 +113,30 @@ a.page-scroll {
   background-color: white;
 }
 
+/*===================[ MailChimp Modal ]===================*/
+#mc_embed_signup input.button {
+  background-color: #63CCEC;
+}
+
+/*===================[ MOBILE ]===================*/
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .nav>li>a>img {
-      width: 60%;
+      width: 100%;
       text-align: center;
+    }
+
+    .nav-el{
+      margin-left: 5%;
     }
 
     .navbar-default .navbar-collapse {
       margin-top: 0px;
-      background-color: #00c58a;
+      background-color: #63CCEC;
+    }
+
+    header .header-content {
+      margin-top: 14%;
     }
 }
 
