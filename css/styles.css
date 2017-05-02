@@ -1,9 +1,22 @@
 .nav>li>a>img {
-  width: 45%;
+  width: 70%;
+}
+
+.nav-el:hover {
+  background-color: #D34A98;
 }
 
 .navbar-nav {
   text-align: center;
+  background-color: transparent;
+}
+
+#deep-nav {
+  width: 100%;
+}
+
+.tropic-news {
+  margin-top: 10%;
 }
 
 
@@ -29,13 +42,13 @@ li {
 }
 
 .navbar-default {
-/*  margin-top: 20px;*/
+  /*margin-top: 20px;*/
   margin-bottom: 0px;
   border-color: black;
 }
 
 .navbar-nav li a {
-  line-height: 50px;
+  line-height: 70px;
 }
 
 .navbar.center .navbar-inner {
@@ -59,7 +72,7 @@ li {
 }
 
 .container-fluid>.navbar-header {
-  background-color: transparent;
+  background-color: black;
 }
 
 a.page-scroll {
@@ -95,3 +108,17 @@ a.page-scroll {
   text-transform: uppercase;
   background-color: white;
 }
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .nav>li>a>img {
+      width: 60%;
+      text-align: center;
+    }
+
+    .navbar-default .navbar-collapse {
+      margin-top: 0px;
+      background-color: #00c58a;
+    }
+}
+
