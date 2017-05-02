@@ -118,6 +118,19 @@ a.page-scroll {
   background-color: #63CCEC;
 }
 
+#chimp-container {
+  padding-left: 22%;
+  padding-right: 22%;
+}
+
+#mc_embed_signup form {
+  background-image: url('../img/colorscc.gif');
+}
+
+#modal-label {
+  font-size: 22px;
+}
+
 /*===================[ MOBILE ]===================*/
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
@@ -137,6 +150,11 @@ a.page-scroll {
 
     header .header-content {
       margin-top: 14%;
+    }
+
+    #chimp-container {
+      padding-left: 0%;
+      padding-right: 0%;
     }
 }
 
