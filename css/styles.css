@@ -1,9 +1,26 @@
 .nav>li>a>img {
-  width: 45%;
+  width: 70%;
+}
+
+.nav-el:hover {
+  background-color: #D34A98;
 }
 
 .navbar-nav {
   text-align: center;
+  background-color: transparent;
+}
+
+#deep-nav {
+  width: 100%;
+}
+
+.tropic-news {
+  margin-top: 10%;
+}
+
+.tropic-news:hover {
+  background-color: #D34A98;
 }
 
 
@@ -29,13 +46,13 @@ li {
 }
 
 .navbar-default {
-/*  margin-top: 20px;*/
+  /*margin-top: 20px;*/
   margin-bottom: 0px;
   border-color: black;
 }
 
 .navbar-nav li a {
-  line-height: 50px;
+  line-height: 70px;
 }
 
 .navbar.center .navbar-inner {
@@ -59,7 +76,7 @@ li {
 }
 
 .container-fluid>.navbar-header {
-  background-color: transparent;
+  background-color: black;
 }
 
 a.page-scroll {
@@ -95,3 +112,49 @@ a.page-scroll {
   text-transform: uppercase;
   background-color: white;
 }
+
+/*===================[ MailChimp Modal ]===================*/
+#mc_embed_signup input.button {
+  background-color: #63CCEC;
+}
+
+#chimp-container {
+  padding-left: 22%;
+  padding-right: 22%;
+}
+
+#mc_embed_signup form {
+  background-image: url('../img/colorscc.gif');
+}
+
+#modal-label {
+  font-size: 22px;
+}
+
+/*===================[ MOBILE ]===================*/
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .nav>li>a>img {
+      width: 100%;
+      text-align: center;
+    }
+
+    .nav-el{
+      margin-left: 5%;
+    }
+
+    .navbar-default .navbar-collapse {
+      margin-top: 0px;
+      background-color: #63CCEC;
+    }
+
+    header .header-content {
+      margin-top: 14%;
+    }
+
+    #chimp-container {
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+}
+
