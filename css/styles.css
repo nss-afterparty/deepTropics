@@ -17,6 +17,7 @@
 
 .tropic-news {
   margin-top: 10%;
+  margin-left: 5px;
 }
 
 .tropic-news:hover {
@@ -113,6 +114,15 @@ a.page-scroll {
   background-color: white;
 }
 
+.social-icons {
+  margin: 8px;
+  color: white;
+}
+
+.social-icons:hover {
+  color: #D34A98;
+}
+
 /*===================[ MailChimp Modal ]===================*/
 #mc_embed_signup input.button {
   background-color: #63CCEC;
@@ -124,7 +134,7 @@ a.page-scroll {
 }
 
 #mc_embed_signup form {
-  background-image: url('../img/colorscc.gif');
+  /*background-image: url('../img/colorscc.gif');*/
 }
 
 #modal-label {
