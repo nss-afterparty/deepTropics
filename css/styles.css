@@ -17,7 +17,11 @@
 
 .tropic-news {
   margin-top: 10%;
-  margin-left: 5px;
+  margin-left: 2px;
+}
+
+.smallOne {
+  display: none;
 }
 
 .tropic-news:hover {
@@ -141,6 +145,17 @@ a.page-scroll {
 }
 
 /*===================[ MOBILE ]===================*/
+@media only screen and (max-width: 1330px) {
+  .tropic-news {
+    display: none;
+  }
+
+  .smallOne {
+    display: inline-block;
+    width: 105%;
+    margin-top: 15%;
+  }
+}
 @media only screen and (max-width: 768px) {
     /* For mobile phones: */
     .nav>li>a>img {
