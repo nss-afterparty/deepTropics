@@ -2,6 +2,10 @@
   width: 70%;
 }
 
+.active {
+  background-color: #D34A98;
+}
+
 #topics-img {
   width: 56%;
 }
