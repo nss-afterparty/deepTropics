@@ -12,12 +12,14 @@ $(document).ready(function(){
    });
 });
 
-$('.navbar li').click(function(e) {
-    $('.navbar li.active').removeClass('active');
-    var $this = $(this);
-    if (!$this.hasClass('active')) {
-        $this.addClass('active');
-        $(.tropic-news).removeClass('active');
-    }
-    // e.preventDefault();
-});
+jQuery(function($) {
+$('.btn-group').hover(function() {
+$(this).find('.dropdown-menu').first().stop(true, true).delay(175).slideDown();
+}, function() {
+$(this).find('.dropdown-menu').first().stop(true, true).delay(350).slideUp();
+});});
+
+
+setTimeout(function() {
+    $('#myModal').modal();
+}, 12000);

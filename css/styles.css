@@ -3,15 +3,19 @@
 }
 
 .active {
-  background-color: #a3259c;
+  background-color: #D34A98;
 }
 
 #topics-img {
   width: 56%;
 }
 
+.nav-el {
+  max-width: 10.5%;
+}
+
 .nav-el:hover {
-  background-color: #D34A98;
+  background-color: #de6aac;
 }
 
 .nav-text-img {
@@ -65,10 +69,6 @@ section {
 
 h2.section-heading {
   color: #D34A98;
-}
-
-li {
-  max-width: 130px;
 }
 
 .navbar-default {
@@ -187,6 +187,7 @@ a.page-scroll {
 
     .nav-el{
       margin-left: 5%;
+      max-width: 150px;
     }
 
     .navbar-default .navbar-collapse {
