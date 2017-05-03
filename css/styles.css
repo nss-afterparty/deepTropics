@@ -148,6 +148,14 @@ a.page-scroll {
   color: #D34A98;
 }
 
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:40px;   /* Height of the footer */
+   background: black;
+}
+
 /*===================[ MailChimp Modal ]===================*/
 #mc_embed_signup input.button {
   background-color: #63CCEC;
