@@ -33,8 +33,14 @@
           <li class="nav-el">
             <a target="_blank" href="http://www.ticketfly.com/"><img class="nav-text-img" src="img/tickets.png"></a>
           </li>
-          <li class="nav-el">
-            <a class="page-scroll" href="#about"><img class="nav-text-img" src="img/about.png"></a>
+          <li class="dropdown nav-el btn-group">
+            <a href="#about" class="dropdown-toggle page-scroll" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="nav-text-img" src="img/about.png"> <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a class="page-scroll" href="#about">DEEP TROPICS?</a></li>
+              <li><a class="page-scroll" href="#faq">FAQ</a></li>
+              <li><a class="page-scroll" href="#volunteer">VOLUNTEER</a></li>
+              <li><a class="page-scroll" href="#partners">PARTNERS</a></li>
+            </ul>
           </li>
           <li class="nav-el">
             <a class="page-scroll" href="#lineUp"><img class="nav-text-img" src="img/lineup.png"></a>
@@ -54,13 +60,13 @@
           <li class="nav-el">
             <a target="_blank" href="http://merchnow.com/"><img class="nav-text-img" src="img/shop.png"></a>
           </li>
-          <li>
-          <!--==========[ MailChimp Modal]==========-->
-            <!-- Button trigger modal -->
+<!--           <li>
+          ==========[ MailChimp Modal]==========
+            Button trigger modal
             <button data-toggle="modal" data-target="#myModal" type="button" class="btn btn-lg pinkText tropic-news"><span id="news-text"> TROPIC NEWS</span></button>
             <button data-toggle="modal" data-target="#myModal" type="button" class="smallOne btn btn-lg pinkText tropic-news">NEWS</button>
 
-          </li>
+          </li> -->
         </ul>
       </div>
     </div>
@@ -109,7 +115,7 @@
     </div>
   </header>
   <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-                            section content
+                            About Content
   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
   <section id="about" class="start-change">
     <div class="container-fluid text-center">
@@ -136,6 +142,9 @@
       </div>
     </div>
   </section>
+  <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                            Lineup
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
   <section id="lineUp">
     <div class="container">
       <h2 class="section-heading">MUSIC LINE UP</h2>
@@ -216,6 +225,9 @@
       </div>
     </div>
   </section>
+  <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                            Deep Topics
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
   <section id="deepTopics">
     <div class="container-fluid text-center">
       <div class="row content">
@@ -335,6 +347,9 @@
       </div>
     </div>
   </section>
+  <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                            VIP EXPERIENCE
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
   <section id="vip">
     <div class="container">
       <h2 class="section-heading">VIP EXPERIENCE</h2>
@@ -353,6 +368,9 @@
       </div>
     </div>
   </section>
+  <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                            CONNECT
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
   <section id="connect">
     <div class="container">
       <h2 class="section-heading">CONNECT</h2>
@@ -412,6 +430,13 @@
     <h3 class="blueText">GENERAL QUESTIONS</h3>
     <div>INSERT ANY IMPORTANT EMAIL ADDRESSES TO CONTACT</div>
     <div>INSERT ANY IMPORTANT EMAIL ADDRESSES TO CONTACT</div>
+
+    <!--[ footer ] -->
+    <footer id="footer" class="navbar-default">
+      <div class="container-fluid">
+        <div class="pinkText textCenter">&copy; 2017 DEEP TROPICS LLC</div>
+      </div>
+    </footer>
   </section>
 
 <!--   <section id="shop">
@@ -420,12 +445,6 @@
     </div>
   </section> -->
 
-  <!--[ footer ] -->
-  <footer class="navbar-default">
-    <div class="container-fluid">
-      <div class="pinkText textCenter">&copy; 2017 DEEP TROPICS LLC</div>
-    </div>
-  </footer>
   <!-- jQuery -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <!-- Bootstrap Core JavaScript -->
