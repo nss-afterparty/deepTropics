@@ -98,6 +98,13 @@ a.page-scroll {
   background-color: white;
 }
 
+.about-dropdown-text {
+  font-family: Helvetica Neue, Helvetica Arial, sans-serif;
+  font-weight: bolder;
+  font-size: 1em;
+  color: #D34A98;
+}
+
 .portfolio-item {
   margin-bottom: 25px;
 }
