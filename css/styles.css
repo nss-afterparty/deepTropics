@@ -101,7 +101,7 @@ a.page-scroll {
 .about-dropdown-text {
   font-family: Helvetica Neue, Helvetica Arial, sans-serif;
   font-weight: bolder;
-  font-size: 1em;
+  font-size: 1.2em;
   color: #D34A98;
 }
 
@@ -203,4 +203,22 @@ a.page-scroll {
 
 body {
   overflow-x:hidden;
+}
+
+.navbar .divider-vertical {
+    height: 50px;
+    margin: 0 9px;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #f2f2f2;
+}
+
+.navbar-inverse .divider-vertical {
+    border-right-color: #222222;
+    border-left-color: #111111;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse .nav > .divider-vertical {
+        display: none;
+     }
 }
