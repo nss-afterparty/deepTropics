@@ -1,3 +1,4 @@
+//==================[ NAV CHANGE COLOR ON SCROLL ]================//
 $(document).ready(function(){       
    var scroll_start = 0;
    var startchange = $('.start-change');
@@ -12,6 +13,7 @@ $(document).ready(function(){
    });
 });
 
+//==================[ DROPDOWN HOVER ]================//
 jQuery(function($) {
 $('.btn-group').hover(function() {
 $(this).find('.dropdown-menu').first().stop(true, true).delay(175).slideDown();
@@ -20,6 +22,12 @@ $(this).find('.dropdown-menu').first().stop(true, true).delay(350).slideUp();
 });});
 
 
+//==================[ E-LIST MODAL POP-UP ]================//
 setTimeout(function() {
     $('#myModal').modal();
-}, 12000);
+}, 13000);
+
+//==================[ SPLASH PAGE ]================//
+ $('.enter_link').click(function() { 
+        $(this).parent().fadeOut(500);
+ });
