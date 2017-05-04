@@ -26,8 +26,3 @@ $(this).find('.dropdown-menu').first().stop(true, true).delay(350).slideUp();
 setTimeout(function() {
     $('#myModal').modal();
 }, 13000);
-
-//==================[ SPLASH PAGE ]================//
- $('.enter_link').click(function() { 
-        $(this).parent().fadeOut(500);
- });
