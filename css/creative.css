@@ -186,7 +186,7 @@ aside {
   }
   .navbar-default.affix {
     background-color: black;
-    border-color: rgba(34, 34, 34, 0.05);
+    /*border-color: rgba(34, 34, 34, 0.05);*/
   }
   .navbar-default.affix .navbar-header .navbar-brand {
     /*color: #F05F40;*/
@@ -219,7 +219,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/BG.jpg');
+  background-image: url('../img/bgbg.png');
   text-align: center;
   color: white;
   margin-top: 5.2%;
