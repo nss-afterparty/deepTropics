@@ -1,7 +1,7 @@
-#myCarousel .nav a small {
+/*#myCarousel .nav a small {*/
     /*display:block;*/
-}
-#myCarousel .nav a {
+/*}*/
+/*#myCarousel .nav a {
     background:white;
     border-radius:0px;
     height: 50px;
@@ -20,5 +20,44 @@
 
 .envi-btn-text:hover {
   color: #ff00ca
+}*/
+
+/*********************************************/
+#myCarousel .carousel-caption {
+  left:0;
+  right:0;
+  bottom:0;
+  text-align:left;
+  padding:10px;
+  background:rgba(0,0,0,0.6);
+  text-shadow:none;
+}
+
+#myCarousel .list-group {
+  height: 400px;
+  overflow: scroll;
+  position:absolute;
+  top:0;
+  right:0;
+  background: #2a2a2a;
+  padding: 6px;
+}
+#myCarousel .list-group-item {
+  border-radius:0px;
+  cursor:pointer;
+  min-height: 98px;
+  color: #434343;
+}
+#myCarousel .list-group .active {
+  background-color:#eee;  
+}
+
+@media (min-width: 992px) { 
+  #myCarousel {padding-right:33.3333%;}
+  #myCarousel .carousel-controls {display:none;}  
+}
+@media (max-width: 991px) { 
+  .carousel-caption p,
+  #myCarousel .list-group {display:none;} 
 }
 

@@ -326,7 +326,14 @@ body {
 
 @media (min-width: 1500px) {
   .container-fluid {
-    margin-left: 12.5%;
+    margin-left: 12.75%;
+    margin-right: 11.5%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    margin-left: 13%;
     margin-right: 11.5%;
   }
 }
