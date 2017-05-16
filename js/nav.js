@@ -97,3 +97,12 @@ $(window).load(function() {
     var triggerheight = Math.round(boxheight/itemlength+1);
   $('#myCarousel .list-group-item').outerHeight(triggerheight);
 });
+
+/////////////// BOOTSTRAP GALLERY
+$(function() {
+    $('.pop').on('click', function($e) {
+      $e.preventDefault();
+      $('.imagepreview').attr('src', $(this).find('img').attr('src'));
+      $('#galleryModal').modal('show');   
+    });   
+});
