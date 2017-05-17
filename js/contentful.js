@@ -25,8 +25,10 @@ contentfulClient.getEntries({
 function renderPost(posts) {
   $.each(posts, function( index, post ) {
     console.log("POST", post.fields.title);
-     container.append("<div class='deepTopic'>" +
-      "<h1>" + post.fields.title + "</h1>" +
+     container.append(
+      "<div class='deepTopic'>" +
+        "<h3>" + post.fields.title + "</h3>" +
+        "<img src=" + "'" + post.fields.featuredImage.fields.file.url + "'" + ">" +
       "</div>" 
   )});
 }
