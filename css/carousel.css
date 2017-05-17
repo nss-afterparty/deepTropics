@@ -16,12 +16,12 @@
   top:0;
   right:0;
   background: #2a2a2a;
-  padding: 6px;
+  padding: 2px;
 }
 #myCarousel .list-group-item {
   border-radius:0px;
   cursor:pointer;
-  min-height: 98px;
+  height: 200px !important;
   color: #434343;
 }
 #myCarousel .list-group .active {
@@ -29,7 +29,7 @@
 }
 
 .carousel-img {
-  width: 700px;
+  width: 760px;
   height: 400px !important;
 }
 

@@ -36,13 +36,13 @@ function renderPost(posts) {
           "<img class='carousel-img' src='" + post.fields.featuredImage.fields.file.url + "'>" +
            "<div class='carousel-caption'>" +
             "<h4><a href='#'>consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4>" +
-            "<p> irmod tempor liquyam erat. <a class='label label-primary' href='http://sevenx.de/demo/bootstrap-carousel/' target='_blank'>Free Bootstrap Carousel Collection</a></p>" +
+            "<p> irmod tempor liquyam erat. <a class='label label-primary' href='http://espn.com/' target='_blank'>READ MORE</a></p>" +
           "</div>" +
         "</div><!-- End Item -->"
       );
 
       carouselSide.append(
-        "<li data-target='#myCarousel' data-slide-to='" + index + "' class='list-group-item active'><h4>Lorem ipsum dolor sit amet consetetur sadipscing</h4></li>"
+        "<li data-target='#myCarousel' data-slide-to='" + index + "' class='list-group-item active'><h4>" + post.fields.title + "</h4></li>"
       );
     } else if (index > 0 && index <= 4) {
       carousel.append(
@@ -50,13 +50,13 @@ function renderPost(posts) {
           "<img class='carousel-img' src='" + post.fields.featuredImage.fields.file.url + "'>" +
            "<div class='carousel-caption'>" +
             "<h4><a href='#'>consetetur sadipscing elitr, sed diam nonumy eirmod</a></h4>" +
-            "<p> irmod tempor liquyam erat. <a class='label label-primary' href='http://sevenx.de/demo/bootstrap-carousel/' target='_blank'>Free Bootstrap Carousel Collection</a></p>" +
+            "<p> irmod tempor liquyam erat. <a class='label label-primary' href='http://espn.com/' target='_blank'>READ MORE</a></p>" +
           "</div>" +
         "</div><!-- End Item -->"
       );
 
       carouselSide.append(
-        "<li data-target='#myCarousel' data-slide-to='" + index + "' class='list-group-item active'><h4>Lorem ipsum dolor sit amet consetetur sadipscing</h4></li>"
+        "<li data-target='#myCarousel' data-slide-to='" + index + "' class='list-group-item active'><h4>" + post.fields.title + "</h4></li>"
       );
     } else {
     console.log("POST", post.fields.title);
