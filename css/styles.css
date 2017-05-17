@@ -190,10 +190,6 @@ a.page-scroll {
   vertical-align: middle;
 }
 
-body {
-  overflow-x:hidden;
-}
-
 /*=========================[ FAQ ]====================== */
 .faqHeadline {
   padding-top: 15px;
@@ -338,6 +334,28 @@ body {
   }
 }
 
+/*========[ IMAGE GALLERY ]=========*/
+#next-btn {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+#next-btn:hover {
+  background-color: #205a8c;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.modal-title {
+  color: black;
+}
+
+
+/*============[ NO RANDOM SPACE ]============*/
 html,body
 {
     background: #51c9ec;
@@ -347,3 +365,4 @@ html,body
     margin-left: 0;
     margin-right: 0
 }
+
