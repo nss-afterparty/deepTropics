@@ -575,11 +575,6 @@ svg {
   color: RGBA(95, 186, 255, 0.7);
 }
 
-html {
-  height: 100%;
-  background: radial-gradient(ellipse at bottom, black 0%, black 100%);
-}
-
 #title {
   top: 50%;
   left: 0;

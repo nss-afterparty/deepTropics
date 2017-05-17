@@ -190,10 +190,6 @@ a.page-scroll {
   vertical-align: middle;
 }
 
-body {
-  overflow-x:hidden;
-}
-
 /*=========================[ FAQ ]====================== */
 .faqHeadline {
   padding-top: 15px;
@@ -203,7 +199,7 @@ body {
 .faqText {
 /*    margin-left: 20%;
     text-align: left;*/
-  list-style-type: square;
+  list-style-type: none;
   font-size: 16px;
 }
 /*=========================[ LOGO NAV OVERHANG ]====================== */
@@ -323,3 +319,50 @@ body {
       list-style-type: square;
     }
 }
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    margin-left: 12.75%;
+    margin-right: 11.5%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    margin-left: 13%;
+    margin-right: 11.5%;
+  }
+}
+
+/*========[ IMAGE GALLERY ]=========*/
+#next-btn {
+  background-color: #337ab7;
+  color: #fff;
+}
+
+#next-btn:hover {
+  background-color: #205a8c;
+}
+
+.btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+}
+
+.modal-title {
+  color: black;
+}
+
+
+/*============[ NO RANDOM SPACE ]============*/
+html,body
+{
+    background: #51c9ec;
+}
+
+.row {
+    margin-left: 0;
+    margin-right: 0
+}
+
