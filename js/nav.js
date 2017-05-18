@@ -41,7 +41,7 @@ $(document).ready(function(){
     
   var clickEvent = false;
   $('#myCarousel').carousel({
-    interval:   4000  
+    interval:   3000  
   }).on('click', '.list-group li', function() {
       clickEvent = true;
       $('.list-group li').removeClass('active');

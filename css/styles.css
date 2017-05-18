@@ -320,6 +320,13 @@ a.page-scroll {
     }
 }
 
+@media (min-width: 1300px) {
+  html,body
+  {
+      background: #51c9ec;
+  } 
+}
+
 @media (min-width: 1500px) {
   .container-fluid {
     margin-left: 12.75%;
@@ -333,6 +340,8 @@ a.page-scroll {
     margin-right: 11.5%;
   }
 }
+
+/*========[ CAROUSEL ]=========*/
 
 /*========[ IMAGE GALLERY ]=========*/
 #next-btn {
@@ -354,15 +363,13 @@ a.page-scroll {
   color: black;
 }
 
-
-/*============[ NO RANDOM SPACE ]============*/
-html,body
-{
-    background: #51c9ec;
+.thumbnail {
+  padding: 0;
 }
 
+
+/*============[ NO RANDOM SPACE ]============*/
 .row {
     margin-left: 0;
     margin-right: 0
 }
-
