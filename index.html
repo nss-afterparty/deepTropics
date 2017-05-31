@@ -22,7 +22,7 @@
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top nav-change-on-scroll">
     <div class="container-fluid">
       <div class="navbar-header">
-        <img id="mobile-logo" src="img/deeptropics.png">
+        <!-- <img id="mobile-logo" src="img/deeptropics.png"> -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
         </button>
@@ -67,6 +67,20 @@
       </div>
     </div>
   </nav>
+  <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                            MOBILE NAV
+  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
+<!--   <div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Clients</a>
+      <a href="#">Contact</a>
+    </div>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  <img id="mobile-logo" src="img/deeptropics.png"> -->
 
   <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
                             MailChimp Pop-up
@@ -110,11 +124,14 @@
   <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
                             header content
   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
-  <header id="home" class="main">
-    <div class="header-content">
-      <div class="header-content-inner">
-      </div>
-    </div>
+  <header id="home" class="wrap">
+
+        <!-- Background IMG -->
+        <div class="bg"></div>
+
+        <!-- DEEP TROPICS IMG -->
+        <div id="dt"></div>
+        <!-- End Icon library -->
   </header>
   <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
                             Lineup
@@ -472,6 +489,7 @@
   <script src="js/nav.js" type="text/javascript"></script>
   <script src="https://unpkg.com/contentful@latest/dist/contentful.min.js"></script>
   <script src="js/contentful.js" type="text/javascript"></script>
+  <script src="js/bg-move.js" type="text/javascript"></script>
 
 </body>
 

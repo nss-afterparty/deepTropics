@@ -7,13 +7,9 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          // $('#mainNav').css('background-color', '#252525');
-          // $('#deep-nav').css('background-color', '#252525');
           $('.nav-change-on-scroll').css('background-color', '#252525');
           $('#mainNav').addClass('nav-border');
        } else {
-          // $('#mainNav').css('background-color', 'black');
-          // $('#deep-nav').css('background-color', 'black');
           $('.nav-change-on-scroll').css('background-color', 'black');
           $('#mainNav').removeClass('nav-border');
        }
@@ -96,4 +92,26 @@ $('#prev-btn').click(function() {
   }
   $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
   $('.modal-title').text('Image ' + number);
+});
+
+
+// MOBILE NAV
+// function openNav() {
+//     document.getElementById("myNav").style.height = "100%";
+// }
+
+// function closeNav() {
+//     document.getElementById("myNav").style.height = "0%";
+// }
+
+$(document).ready(function(){
+    $(window).on('scroll', function() {
+        var top = $(window).scrollTop();
+        var scroll = (top)/5000; //gives a value of 0-1 based on scroll position
+        
+        $("#img1").css({top: (scroll)*200 + 'px' });
+        $("#img2").css({top: (scroll)*400 + 'px' });
+        $("#img3").css({top: (scroll)*600 + 'px' });
+
+    }).trigger('scroll');
 });
