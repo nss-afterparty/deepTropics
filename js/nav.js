@@ -7,13 +7,9 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          // $('#mainNav').css('background-color', '#252525');
-          // $('#deep-nav').css('background-color', '#252525');
-          $('.nav-change-on-scroll').css('background-color', '#252525');
+          $('.nav-change-on-scroll').css('background-color', 'rgb(14, 14, 14)');
           $('#mainNav').addClass('nav-border');
        } else {
-          // $('#mainNav').css('background-color', 'black');
-          // $('#deep-nav').css('background-color', 'black');
           $('.nav-change-on-scroll').css('background-color', 'black');
           $('#mainNav').removeClass('nav-border');
        }

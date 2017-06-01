@@ -2,6 +2,10 @@
   width: 70%;
 }
 
+#mobile-nav {
+  display: none;
+}
+
 #mobile-logo {
   display: none;
 }
@@ -164,11 +168,27 @@ a.page-scroll {
 }
 
 #mc_embed_signup form {
-  /*background-image: url('../img/colorscc.gif');*/
+  background-color: #e8e621;
+  padding: 0 0 10px 0;
+  border-radius: 5px;
+  background-size: cover;
+}
+
+#mc_embed_signup {
+  border-radius: 5px;
 }
 
 #modal-label {
   font-size: 22px;
+  color: black;
+}
+
+#mc_embed_signup label {
+  padding: 10px 0 0 0;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #3c9ebc;
 }
 
 .modal {
@@ -215,28 +235,13 @@ a.page-scroll {
   transform: scale(1.1);
 }
 
-/*#deep-nav {
-  width: 100%;
-  background-color: black;
-  border-radius: 50%;
-  position: absolute;
-  left: 0;
-  top: -18px;
-  padding: 4px;
-  padding-left: 8px;
-}*/
-
-/*JOEY THING TWO*/
-
 #deep-nav {
-    width: 100%;
-    background-color: black;
-    border-radius: 10%;
-    position: absolute;
-    left: 0px;
-    top: -12px;
-    padding: 3px 0px 4px 0px;
-    padding-left: 4px;
+  width: 80%;
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  top: -10px;
+  background-color: black;
 }
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -247,14 +252,11 @@ a.page-scroll {
     margin-left: 2%;
 }
 
-/*===================[ MOBILE ]===================*/
-@media (min-width: 1260px) {
-  .nav-border {
-/*    border-bottom: 36px solid;
-    border-color: #51c9ec;*/
-  }
+#myNav {
+  display: none;
 }
 
+/*===================[ MOBILE ]===================*/
 @media only screen and (max-width: 1330px) {
   .smallOne {
     display: inline-block;
@@ -274,6 +276,24 @@ a.page-scroll {
   }
 }
 @media only screen and (max-width: 760px) {
+    .active {
+      background-color: #51c9ec;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: list-item;
+    }
+
+    .navbar-collapse { 
+      max-height: 100% !important; 
+      background-image: url(../img/background-modal.png);
+      background-size: cover;
+    }
+
     /* For mobile phones: */
     .nav>li>a>img {
       width: 100%;
@@ -287,7 +307,7 @@ a.page-scroll {
 
     .navbar-default .navbar-collapse {
       margin-top: 0px;
-      background-color: #63CCEC;
+      background-color: white;
     }
 
     header .header-content {
@@ -323,7 +343,7 @@ a.page-scroll {
 @media (min-width: 1300px) {
   html,body
   {
-      background: #51c9ec;
+      background: black;
   } 
 }
 
@@ -367,9 +387,47 @@ a.page-scroll {
   padding: 0;
 }
 
+/*===================[ BG MOVE ]====================*/
+#dt {
+  margin: 0;
+  padding: 0;
+  height: 80%;
+  width: 45%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("../img/colorful-dt.png");
+  background-size: contain;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%); }
+
+.wrap {
+  height: 100%;
+  overflow: hidden;
+  position: relative; }
+  .wrap .bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    background: url("../img/background.png") no-repeat center center;
+    background-size: cover;
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1); }
+
 
 /*============[ NO RANDOM SPACE ]============*/
 .row {
     margin-left: 0;
     margin-right: 0
 }
+
+
+
