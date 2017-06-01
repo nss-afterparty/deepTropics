@@ -164,7 +164,9 @@ a.page-scroll {
 }
 
 #mc_embed_signup form {
-  background-image: url(../img/background-modal.png);
+  background-color: #e8e621;
+  padding: 0 0 10px 0;
+  border-radius: 5px;
   background-size: cover;
 }
 
@@ -174,6 +176,15 @@ a.page-scroll {
 
 #modal-label {
   font-size: 22px;
+  color: black;
+}
+
+#mc_embed_signup label {
+  padding: 10px 0 0 0;
+}
+
+#mc_embed_signup .button:hover {
+  background-color: #3c9ebc;
 }
 
 .modal {
@@ -405,4 +416,6 @@ a.page-scroll {
     margin-left: 0;
     margin-right: 0
 }
+
+
 
