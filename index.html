@@ -22,14 +22,17 @@
   <nav id="mainNav" class="navbar navbar-default navbar-fixed-top nav-change-on-scroll">
     <div class="container-fluid">
       <div class="navbar-header">
-        <!-- <img id="mobile-logo" src="img/deeptropics.png"> -->
+        <img id="mobile-logo" src="img/deeptropics.png">
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
           <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
         </button>
         <!-- <a class="navbar-brand page-scroll" href="#page-top">Deep Tropics</a> -->
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
+      <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                                Desktop NAV
+      \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
+        <ul id="desktop-nav" class="nav navbar-nav">
           <li class="nav-el">
             <a target="_blank" href="http://www.ticketfly.com/"><img class="nav-text-img" src="img/tickets.png"></a>
           </li>
@@ -49,7 +52,7 @@
             <a class="page-scroll" href="#deepTopics"><img id="topics-img" class="nav-text-img" src="img/deepTopics.png"></a>
           </li>
           <li class="navbar-brand">
-            <a class="page-scroll" href="#home"><img class="nav-text-img-dt nav-change-on-scroll" id="deep-nav" src="img/colorful-dt-top.png"></a>
+            <a class="page-scroll" href="#home"><img class="nav-text-img-dt nav-change-on-scroll" id="deep-nav" src="img/new-nav-logo.png"></a>
           </li>
           <li class="nav-el">
             <a class="page-scroll" href="#media"><img class="nav-text-img" src="img/media.png"></a>
@@ -64,23 +67,56 @@
             <a target="_blank" href="http://merchnow.com/"><img class="nav-text-img" src="img/shop.png"></a>
           </li>
         </ul>
+
+        <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                                  MOBILE NAV
+        \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
+        <ul id="mobile-nav" class="nav navbar-nav">
+          <ul style="float:left; display: inline; list-style: none; width: 44%; margin-left: 5%;">
+            <li class="nav-el">
+              <a target="_blank" href="http://www.ticketfly.com/"><span class="about-dropdown-text">TICKETS</span></a>
+            </li>
+            <li class="nav-el">
+              <a class="page-scroll" href="#lineUp"><span class="about-dropdown-text">LINEUP</span></a>
+            </li>
+            <li class="nav-el">
+              <a href="#about" class="page-scroll"><span class="about-dropdown-text">ABOUT</span></span></a>
+            <li class="nav-el">
+              <a class="page-scroll" href="#deepTopics"><span class="about-dropdown-text">DEEP TOPICS</span></a>
+            </li>
+            <li class="nav-el">
+              <a class="page-scroll" href="#media"><span class="about-dropdown-text">MEDIA</span></a>
+            </li>
+            <li class="nav-el">
+              <a class="page-scroll" href="#vip"><span class="about-dropdown-text">VIP</span></a>
+            </li>
+          </ul>
+
+          <ul style="float:right; display: inline; list-style: none; width: 45%; margin-right: 5%;">
+            <li class="nav-el">
+              <a class="page-scroll" href="#connect"><span class="about-dropdown-text">CONNECT</span></a>
+            </li>
+            <li class="nav-el">
+              <a target="_blank" href="http://merchnow.com/"><span class="about-dropdown-text">SHOP</span></a>
+            </li>
+            <li class="nav-el">
+              <a class="page-scroll" href="#faq"><span class="about-dropdown-text">FAQ</span></a>
+            </li>
+            <li class="nav-el">
+              <a class="page-scroll" href="#volunteer"><span class="about-dropdown-text">VOLUNTEER</span></a>
+            </li>
+            <li class="nav-el">
+              <a class="page-scroll" href="#partners"><span class="about-dropdown-text">PARTNERS</span></a>
+            </li>
+            <li class="nav-el">
+              <a class="page-scroll" href="#home"><span class="about-dropdown-text">&uarr;</span></a>
+            </li>
+          </ul>
+        </ul>
+
       </div>
     </div>
   </nav>
-  <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-                            MOBILE NAV
-  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
-<!--   <div id="myNav" class="overlay">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <div class="overlay-content">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Clients</a>
-      <a href="#">Contact</a>
-    </div>
-  </div>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
-  <img id="mobile-logo" src="img/deeptropics.png"> -->
 
   <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
                             MailChimp Pop-up

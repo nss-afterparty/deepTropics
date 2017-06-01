@@ -93,25 +93,3 @@ $('#prev-btn').click(function() {
   $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
   $('.modal-title').text('Image ' + number);
 });
-
-
-// MOBILE NAV
-// function openNav() {
-//     document.getElementById("myNav").style.height = "100%";
-// }
-
-// function closeNav() {
-//     document.getElementById("myNav").style.height = "0%";
-// }
-
-$(document).ready(function(){
-    $(window).on('scroll', function() {
-        var top = $(window).scrollTop();
-        var scroll = (top)/5000; //gives a value of 0-1 based on scroll position
-        
-        $("#img1").css({top: (scroll)*200 + 'px' });
-        $("#img2").css({top: (scroll)*400 + 'px' });
-        $("#img3").css({top: (scroll)*600 + 'px' });
-
-    }).trigger('scroll');
-});
