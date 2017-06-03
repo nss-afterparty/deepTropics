@@ -27,7 +27,9 @@
 }
 
 .nav-el:hover {
-  background-color: #de6aac;
+  /*background-color: #de6aac;*/
+    background-color: #b700c0;
+
 }
 
 .nav-text-img {
@@ -263,6 +265,11 @@ a.page-scroll {
   display: none;
 }
 
+/*========[ Nav Imgs ]=========*/
+#experience-img {
+  width: 80%;
+}
+
 /*========[ IMAGE GALLERY ]=========*/
 #next-btn {
   background-color: #337ab7;
@@ -425,7 +432,7 @@ a.page-scroll {
       display: inline;
     }
 
-    /*=========================[ TOPICS ]====================== */
+/*=========================[ TOPICS - Mobile ]====================== */
      #topics-skull {
       width: 70%;
      }
@@ -501,7 +508,7 @@ a.page-scroll {
 
 
 /******************************************/
-/*              MOBILE X                  */
+/*           MOBILE X  Animation          */
 /******************************************/
 /* btn */
 .mobile-menu {
