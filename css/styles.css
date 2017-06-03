@@ -357,16 +357,6 @@ a.page-scroll {
   }
 }
 @media only screen and (max-width: 767px) {
-
-    .navbar-default .navbar-header .navbar-toggle {
-        font-weight: 700;
-        font-size: 20px;
-        background-color: black;
-        color: white;
-        border: black;
-        text-transform: uppercase;
-    }
-
     .active {
       background-color: #51c9ec;
     }
@@ -425,10 +415,22 @@ a.page-scroll {
    }
 
     #mobile-logo {
-      width: 22%;
+      width: 28%;
       padding-left: 30px;
       display: inline;
     }
+}
+
+@media only screen and (max-width: 700px) {
+  #mobile-logo {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #mobile-logo {
+    width: 36%;
+  }
 }
 
 @media only screen and (max-width: 612px) {
@@ -438,26 +440,26 @@ a.page-scroll {
     }
 
     #mobile-logo {
-      /*width: 34%;*/
+      width: 36%;
     }
 }
 
-@media only screen and (max-width: 585px) {
-    #mobile-logo {
-      width: 30%;
-    }
+@media only screen and (max-width: 550px) {
+  #mobile-logo {
+    width: 36%;
+  }
 }
 
-@media only screen and (max-width: 420px) {
-    #mobile-logo {
-      width: 34%;
-    }
+@media only screen and (max-width: 500px) {
+  #mobile-logo {
+    width: 42%;
+  }
 }
 
-@media only screen and (max-width: 400px) {
-    #mobile-logo {
-      width: 40%;
-    }
+@media only screen and (max-width: 450px) {
+  #mobile-logo {
+    width: 48%;
+  }
 }
 
 @media (min-width: 1300px) {
@@ -481,13 +483,17 @@ a.page-scroll {
   }
 }
 
+
+/******************************************/
+/*              MOBILE X                  */
+/******************************************/
 /* btn */
 .mobile-menu {
   position: relative;
   display:  inline-block;
-  width: 30px;
-  height: 30px;
-  margin: 25px;
+  width: 15px;
+  height: 15px;
+  margin: 20px;
 }
 .mobile-menu span {
   margin: 0 auto;
