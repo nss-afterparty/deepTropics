@@ -93,3 +93,6 @@ $('#prev-btn').click(function() {
   $('.modal-body').html($('#img-container').find('a[title="Image ' + number + '"]').parent('div').html());
   $('.modal-title').text('Image ' + number);
 });
+
+// MOBILE X
+$(".example5").click(function(){ $(this).toggleClass("open"); });
