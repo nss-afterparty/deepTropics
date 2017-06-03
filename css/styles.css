@@ -66,9 +66,9 @@ h2.section-heading {
 }
 
 .navbar-default {
-  /*margin-top: 20px;*/
   margin-bottom: 0px;
   border-color: black;
+  box-shadow: 0 0 0 2px #00e1ff, 0 0 0 4px rgb(0, 0, 0), 0 0 0 5px #a100a9, 0 0 0 6px rgba(0,0,0,0.4), 0 0 0 4px #5f0044, 0 0 0 2px rgba(0,0,0,0.2);
 }
 
 .navbar-nav li a {
@@ -87,7 +87,6 @@ h2.section-heading {
 
 .navbar-default .navbar-collapse {
   margin-top: 0px;
-  /*background-color: purple;*/
 }
 
 .navbar-default .navbar-collapse {
@@ -210,6 +209,11 @@ a.page-scroll {
   vertical-align: middle;
 }
 
+/*=========================[ TOPICS ]====================== */
+ #topics-skull {
+  width: 50%;
+ }
+
 /*=========================[ FAQ ]====================== */
 .faqHeadline {
   padding-top: 15px;
@@ -217,8 +221,6 @@ a.page-scroll {
 }
 
 .faqText {
-/*    margin-left: 20%;
-    text-align: left;*/
   list-style-type: none;
   font-size: 16px;
 }
@@ -236,12 +238,17 @@ a.page-scroll {
 }
 
 #deep-nav {
-  width: 80%;
-  border-radius: 50%;
+  width: 62%;
   position: relative;
   left: 0;
-  top: -10px;
+  top: 5px;
   background-color: black;
+  padding: 0px 3px 0 3px;
+  border-color: #262424;
+  border: 1px solid rgba(0,0,0,0.8);
+  box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 6px #b700c0, 0 0 0 10px rgba(0,0,0,0.4), 0 0 0 10px #00180f, 0 0 0 12px rgb(0, 225, 255);
+  /*#f300be*/
+  border-radius: 50%;
 }
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
@@ -255,8 +262,6 @@ a.page-scroll {
 #myNav {
   display: none;
 }
-
-/*========[ CAROUSEL ]=========*/
 
 /*========[ IMAGE GALLERY ]=========*/
 #next-btn {
@@ -419,6 +424,11 @@ a.page-scroll {
       padding-left: 30px;
       display: inline;
     }
+
+    /*=========================[ TOPICS ]====================== */
+     #topics-skull {
+      width: 70%;
+     }
 }
 
 @media only screen and (max-width: 700px) {
@@ -459,6 +469,12 @@ a.page-scroll {
 @media only screen and (max-width: 450px) {
   #mobile-logo {
     width: 48%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #mobile-logo {
+    width: 54%;
   }
 }
 

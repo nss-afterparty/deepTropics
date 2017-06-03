@@ -1,6 +1,6 @@
 "use strict";
 
-//BG MOVE
+//============================[ BG MOVE ]===============================//
 var lFollowX = 0,
     lFollowY = 0,
     x = 0,
@@ -32,14 +32,3 @@ $(window).on('mousemove click', function(e) {
 });
 
 moveBackground();
-
-// nav
-/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
-function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-        x.className += " responsive";
-    } else {
-        x.className = "topnav";
-    }
-}

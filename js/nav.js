@@ -2,15 +2,17 @@
 //==================[ NAV CHANGE COLOR ON SCROLL ]================//
 $(document).ready(function(){       
    var scroll_start = 0;
-   var startchange = $('#about');
+   var startchange = $('#lineUp');
    var offset = startchange.offset();
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('.nav-change-on-scroll').css('background-color', 'rgb(14, 14, 14)');
+          $('.nav-change-on-scroll').css('background-color', '#121313');
+          $('.nav-change-on-scroll').css('border-bottom', '#262424 solid 1.25px');
           $('#mainNav').addClass('nav-border');
        } else {
           $('.nav-change-on-scroll').css('background-color', 'black');
+          $('.nav-change-on-scroll').css('border-bottom', '');
           $('#mainNav').removeClass('nav-border');
        }
    });
@@ -94,5 +96,5 @@ $('#prev-btn').click(function() {
   $('.modal-title').text('Image ' + number);
 });
 
-// MOBILE X
+//=================================[ MOBILE ANIMATED X ]====================================//
 $(".example5").click(function(){ $(this).toggleClass("open"); });
