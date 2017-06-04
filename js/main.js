@@ -7,7 +7,7 @@ $(document).ready(function(){
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();
       if(scroll_start > offset.top) {
-          $('.nav-change-on-scroll').css('background-color', '#121313');
+          // $('.nav-change-on-scroll').css('background-color', '#121313');
           $('.nav-change-on-scroll').css('border-bottom', '#262424 solid 1.25px');
           $('#mainNav').addClass('nav-border');
        } else {

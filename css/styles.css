@@ -66,6 +66,10 @@
   margin-top: -40px;
 }*/
 
+section {
+  box-shadow: 0 0 0 2px black, 0 0 0 2px rgba(0,0,0,0.6), 0 0 0 3px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 4px rgb(0, 225, 255);
+}
+
 h2.section-heading {
   color: #D34A98;
 }
@@ -584,57 +588,22 @@ a.page-scroll {
 /******************************************/
 /*              Artist Cards              */
 /******************************************/
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
-.artist-card {
-  font-family: 'Raleway', Arial, sans-serif;
-  color: #fff;
-  position: relative;
-  float: left;
-  overflow: hidden;
-  background-color: #1a1a1a;
-  color: #ffffff;
-  text-align: left;
-  width: 25%;
-  max-height: 175px;
-  background: url(lineup_img/Machinedrum.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-.artist-card * {
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  -webkit-transition: all 0.35s ease;
-  transition: all 0.35s ease;
-}
-.artist-card img {
-  max-width: 100%;
-  height: 100%;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  vertical-align: top;
-  opacity: 0.8;
-  -webkit-filter: grayscale(60%);
-  filter: grayscale(60%);
+/*.card {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
 }
 
-.artist-card.transparent {
-  background-color: transparent;
-}
-
-.artist-card:hover img,
-.artist-card.hover img {
-  -webkit-transform: scale(1.2);
-  transform: scale(1.2);
-}
-
-
-/*.card img:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-  max-width: 100%;
-  overflow: hidden;
+.card:hover::after {
+  background: cover;
+  -webkit-transform: scale(1.2) rotate(-7deg);
+  -moz-transform: scale(1.2) rotate(-7deg);
+  -ms-transform: scale(1.2) rotate(-7deg);
+  -o-transform: scale(1.2) rotate(-7deg);
+  transform: scale(1.2) rotate(-7deg);
 }*/
 
 .card h2 {
@@ -642,9 +611,12 @@ a.page-scroll {
   position: relative;
 }
 .card {
-  color: hsl(324, 70%, 45%);
+  color: hsl(187, 100%, 50%);
+  /*color: hsl(324, 70%, 45%);*/
   /*animation: wheelHueColor 100s infinite;*/
   background-color: currentColor;
+  /*box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 4px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 5px rgb(0, 225, 255);*/
+  /*box-shadow: 0 0 0 2px black, 0 0 0 2px rgba(0,0,0,0.6), 0 0 0 3px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 4px rgb(0, 225, 255);*/
 }
 @supports (background-blend-mode: overlay) {
   .background {
@@ -693,7 +665,8 @@ a.page-scroll {
 
 .card .card-content .card-title, .card-reveal .card-title{
     font-size: 20px;
-    font-weight: 200;    
+    font-weight: 500;
+    padding-top: 2px;   
 }
 
 .card {
