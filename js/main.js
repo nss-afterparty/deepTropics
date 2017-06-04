@@ -32,8 +32,6 @@ setTimeout(function() {
     $('#myModal').modal();
 }, 13000);
 
-
-
 //==================[ CAROUSEL ]================//
 $(document).ready(function(){
     
