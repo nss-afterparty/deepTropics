@@ -2,7 +2,7 @@
 //==================[ NAV CHANGE COLOR ON SCROLL ]================//
 $(document).ready(function(){       
    var scroll_start = 0;
-   var startchange = $('#lineUp');
+   var startchange = $('#lineup');
    var offset = startchange.offset();
    $(document).scroll(function() { 
       scroll_start = $(this).scrollTop();

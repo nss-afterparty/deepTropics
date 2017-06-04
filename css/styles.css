@@ -373,6 +373,23 @@ a.page-scroll {
     -moz-transform: scale(1.1);
     transform: scale(1.1); }
 
+/*============[ ADMAT ]============*/
+#admat {
+  width:75%; 
+  box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 6px #b700c0, 0 0 0 10px rgba(0,0,0,0.4), 0 0 0 10px #00180f, 0 0 0 12px rgb(0, 225, 255);"
+}
+
+#visual-artist-headline {
+  margin-top: 5%;
+}
+
+#lineup-headline {
+  margin-top: 8%;
+}
+
+#lineup {
+  padding: 80px 0 80px 0;
+}
 
 /*============[ NO RANDOM SPACE ]============*/
 .row {
@@ -386,6 +403,10 @@ a.page-scroll {
 
 /*===================[ MOBILE ]===================*/
 @media only screen and (max-width: 1330px) {
+  #admat  {
+    width: 90%;
+  }
+
   .navbar-default .navbar-header .navbar-toggle {
       font-weight: 700;
       font-size: 26px;
