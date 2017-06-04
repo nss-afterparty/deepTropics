@@ -629,26 +629,22 @@ a.page-scroll {
   transform: scale(1.2);
 }
 
-/*
-.card img:hover {
+
+/*.card img:hover {
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
   max-width: 100%;
   overflow: hidden;
-}
+}*/
 
 .card h2 {
   animation: inherit;
   position: relative;
-  top: 0;
 }
 .card {
   color: hsl(324, 70%, 45%);
   /*animation: wheelHueColor 100s infinite;*/
-/*  background-color: currentColor;
-  padding: 0;
-  max-height: 223px;
-  overflow: hidden;
+  background-color: currentColor;
 }
 @supports (background-blend-mode: overlay) {
   .background {
@@ -672,7 +668,7 @@ a.page-scroll {
 
 .card h2 {
   margin: auto;
-  background: rgba(0,0,0,.75);
+  background: black;
 }*/
 
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
@@ -687,17 +683,16 @@ a.page-scroll {
 }
 
 .card{
-    font-family: 'Roboto', sans-serif; 
     margin-top: 10px;
     position: relative;
 }
 
 .card .card-content {
-    padding: 10px;    
+  margin-top: 80%;    
 }
 
 .card .card-content .card-title, .card-reveal .card-title{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 200;    
 }
 
@@ -708,6 +703,12 @@ a.page-scroll {
   height: 250px;
   background: no-repeat center center;
   background-size: cover;
+}
+
+.card .card-content {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
 }
 
 
