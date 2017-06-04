@@ -60,7 +60,7 @@
             <a class="page-scroll" href="#media"><img class="nav-text-img" src="img/media.png"></a>
           </li>
           <li class="nav-el">
-            <a class="page-scroll" href="#vip"><img class="nav-text-img" src="img/vip.png"></a>
+            <a class="page-scroll" href="#experience"><img id="experience-img" class="nav-text-img" src="img/experience.png"></a>
           </li>
           <li class="nav-el">
             <a class="page-scroll" href="#connect"><img class="nav-text-img" src="img/connect.png"></a>
@@ -178,80 +178,59 @@
     <div class="container">
       <h2 class="section-heading">MUSIC LINE UP</h2>
     </div>
-    <div class="container popup-gallery">
-      <div class="row">
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
+    <!-- Lineup Filters -->
+    <ul class="nav nav-pills nav-justified">
+      <li class="active"><a data-toggle="tab" href="#main"><h3 class="lineup-nav-text">Main Event</h3></a></li>
+      <li><a data-toggle="tab" href="#preparty"><h3 class="lineup-nav-text">Preparty</h3></a></li>
+      <li><a data-toggle="tab" href="#late-night"><h3 class="lineup-nav-text">Late Night</h3></a></li>
+    </ul>
+
+    <div class="tab-content">
+
+      <div id="preparty" class="tab-pane fade">
+        <h3>COMING SOON.</h3>
       </div>
-      <!-- /.row -->
-      <!-- Projects Row -->
-      <div class="row">
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
-        <div class="col-md-3 portfolio-item">
-          <a href="#">
-            <img class="img-responsive" src="http://placehold.it/750x450" alt="">
-          </a>
-        </div>
+      <div id="late-night" class="tab-pane fade">
+        <h3>COMING SOON.</h3>
       </div>
+
+    <div id="main" class="container popup-gallery tab-pane fade in active">
+      <div id="artist-container" class="row">
+    
+      <!-- Artist Row -->
       <!-- /.row -->
+      </div>
+
+    <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+                              VISUAL ARTISTS
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
       <!-- Projects Row -->
       <div class="container">
-        <h2 class="section-heading">VISUAL ARTISTS</h2>
+        <h2 style="margin-top: 30px;" class="section-heading">VISUAL ARTISTS</h2>
       </div>
       <div class="row">
-        <div class="col-md-3 portfolio-item">
+        <div class="col-sm-4 col-xs-6 col-md-3 col-lg-3 portfolio-item">
           <a href="#">
             <img class="img-responsive" src="http://placehold.it/750x450" alt="">
           </a>
         </div>
-        <div class="col-md-3 portfolio-item">
+        <div class="col-sm-4 col-xs-6 col-md-3 col-lg-3 portfolio-item">
           <a href="#">
             <img class="img-responsive" src="http://placehold.it/750x450" alt="">
           </a>
         </div>
-        <div class="col-md-3 portfolio-item">
+        <div class="col-sm-4 col-xs-6 col-md-3 col-lg-3 portfolio-item">
           <a href="#">
             <img class="img-responsive" src="http://placehold.it/750x450" alt="">
           </a>
         </div>
-        <div class="col-md-3 portfolio-item">
+        <div class="col-sm-4 col-xs-6 col-md-3 col-lg-3 portfolio-item">
           <a href="#">
             <img class="img-responsive" src="http://placehold.it/750x450" alt="">
           </a>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -367,11 +346,11 @@
 
   </section>
   <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-                            VIP EXPERIENCE
+                            EXPERIENCE
   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
-  <section id="vip">
+  <section id="experience">
     <div class="container">
-      <h2 class="section-heading">VIP EXPERIENCE</h2>
+      <h2 class="section-heading">EXPERIENCE</h2>
     </div>
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
@@ -529,9 +508,10 @@
 
 
   <!-- main js -->
-  <script src="js/nav.js" type="text/javascript"></script>
-  <script src="https://unpkg.com/contentful@latest/dist/contentful.min.js"></script>
-  <script src="js/contentful.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+  <script src="js/lineup.js" type="text/javascript"></script>
+  <!-- <script src="https://unpkg.com/contentful@latest/dist/contentful.min.js"></script> -->
+  <!-- <script src="js/contentful.js" type="text/javascript"></script> -->
   <script src="js/bg-move.js" type="text/javascript"></script>
 
 </body>

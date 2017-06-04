@@ -10,8 +10,9 @@
   display: none;
 }
 
-.active {
-  background-color: #D34A98;
+.navbar-nav>.active {
+  background-color: #b700c0
+  /*background-color: #D34A98;*/
 }
 
 .active:nth-of-type(5) {
@@ -27,7 +28,11 @@
 }
 
 .nav-el:hover {
-  background-color: #de6aac;
+  background-color: #51c9ec;
+  /*background-color: #de6aac;*/
+  /*background-color: #D34A98;*/
+    /*background-color: #b700c0;*/
+
 }
 
 .nav-text-img {
@@ -60,6 +65,12 @@
   padding-top: 64px;
   margin-top: -40px;
 }*/
+
+
+/* Section Divider */
+section {
+  box-shadow: 0 0 0 2px black, 0 0 0 2px rgba(0,0,0,0.6), 0 0 0 3px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 4px rgb(0, 225, 255);
+}
 
 h2.section-heading {
   color: #D34A98;
@@ -154,6 +165,45 @@ a.page-scroll {
    width:100%;
    height:40px;   /* Height of the footer */
    background: black;
+}
+
+/*===================[ LINEUP NAV ]===================*/
+.lineup-nav-text {
+  color: white;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+  color: #fff;
+}
+.lineup-nav-text:hover {
+  color:#D34A98;
+  background-color: transparent;
+}
+
+.lineup-nav-text>.active {
+  background-color: transparent;
+  color: #D34A98; 
+}
+
+.active>.lineup-nav-text {
+  background-color: transparent;
+  color: #D34A98;
+}
+
+.tab-content>.active {
+  background-color: transparent;
+  color: #D34A98;
+}
+
+.nav-justified {
+  width: 80%;
+  margin: 20px 10%;
+  background-color: transparent;
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+    color: #fff;
+    background-color: transparent;
 }
 
 /*===================[ MailChimp Modal ]===================*/
@@ -257,6 +307,11 @@ a.page-scroll {
 
 #myNav {
   display: none;
+}
+
+/*========[ Nav Imgs ]=========*/
+#experience-img {
+  width: 80%;
 }
 
 /*========[ IMAGE GALLERY ]=========*/
@@ -421,7 +476,7 @@ a.page-scroll {
       display: inline;
     }
 
-    /*=========================[ TOPICS ]====================== */
+/*=========================[ TOPICS - Mobile ]====================== */
      #topics-skull {
       width: 70%;
      }
@@ -497,7 +552,7 @@ a.page-scroll {
 
 
 /******************************************/
-/*              MOBILE X                  */
+/*           MOBILE X  Animation          */
 /******************************************/
 /* btn */
 .mobile-menu {
@@ -558,6 +613,114 @@ a.page-scroll {
   -webkit-transform: rotate(-45deg); transform: rotate(-45deg);
   -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
 }
+
+/******************************************/
+/*             Artist Border              */
+/******************************************/
+.artist-img {
+  box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 6px #b700c0, 0 0 0 10px rgba(0,0,0,0.4), 0 0 0 10px #00180f, 0 0 0 12px rgb(0, 225, 255);
+  border-radius: 50%;
+}
+
+/******************************************/
+/*              Artist Cards              */
+/******************************************/
+/*.card {
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
+}
+
+.card:hover::after {
+  background: cover;
+  -webkit-transform: scale(1.2) rotate(-7deg);
+  -moz-transform: scale(1.2) rotate(-7deg);
+  -ms-transform: scale(1.2) rotate(-7deg);
+  -o-transform: scale(1.2) rotate(-7deg);
+  transform: scale(1.2) rotate(-7deg);
+}*/
+
+.card h2 {
+  animation: inherit;
+  position: relative;
+}
+.card {
+  color: hsl(187, 100%, 50%);
+  /*color: hsl(324, 70%, 45%);*/
+  /*animation: wheelHueColor 100s infinite;*/
+  background-color: currentColor;
+  /*box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 4px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 5px rgb(0, 225, 255);*/
+  /*box-shadow: 0 0 0 2px black, 0 0 0 2px rgba(0,0,0,0.6), 0 0 0 3px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 4px rgb(0, 225, 255);*/
+}
+@supports (background-blend-mode: overlay) {
+  .background {
+    background-image: linear-gradient(45deg, white 10%, black 90%);
+    background-blend-mode: overlay;
+  }
+}
+@keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  90%      { color: hsl(288, 60%, 40%); }
+}
+
+
+.card h2 {
+  margin: auto;
+  background: black;
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+.card .card-image{
+    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card{
+    margin-top: 10px;
+    position: relative;
+}
+
+.card .card-content {
+  margin-top: 80%;    
+}
+
+.card .card-content .card-title, .card-reveal .card-title{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 2px;   
+}
+
+.card {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  overflow: hidden;
+  height: 250px;
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+.card .card-content {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+}
+
 
 
 
