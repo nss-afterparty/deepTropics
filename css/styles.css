@@ -11,7 +11,8 @@
 }
 
 .active {
-  background-color: #D34A98;
+  background-color: #b700c0
+  /*background-color: #D34A98;*/
 }
 
 .active:nth-of-type(5) {
@@ -27,8 +28,10 @@
 }
 
 .nav-el:hover {
+  /*background-color: #51c9ec;*/
   /*background-color: #de6aac;*/
-    background-color: #b700c0;
+  background-color: #D34A98;
+    /*background-color: #b700c0;*/
 
 }
 
