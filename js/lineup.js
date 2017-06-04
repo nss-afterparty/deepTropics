@@ -2,6 +2,7 @@
 (function() {
 console.log('HEY HEY HEY');
 
+
 $.getJSON( "lineup.json", function( data ) {
     console.log('data', data);
 
