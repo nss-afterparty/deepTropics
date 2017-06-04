@@ -573,6 +573,144 @@ a.page-scroll {
   -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
 }
 
+/******************************************/
+/*             Artist Border              */
+/******************************************/
+.artist-img {
+  box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 6px #b700c0, 0 0 0 10px rgba(0,0,0,0.4), 0 0 0 10px #00180f, 0 0 0 12px rgb(0, 225, 255);
+  border-radius: 50%;
+}
+
+/******************************************/
+/*              Artist Cards              */
+/******************************************/
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,700);
+.artist-card {
+  font-family: 'Raleway', Arial, sans-serif;
+  color: #fff;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  text-align: left;
+  width: 25%;
+  max-height: 175px;
+  background: url(lineup_img/Machinedrum.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.artist-card * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+.artist-card img {
+  max-width: 100%;
+  height: 100%;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  vertical-align: top;
+  opacity: 0.8;
+  -webkit-filter: grayscale(60%);
+  filter: grayscale(60%);
+}
+
+.artist-card.transparent {
+  background-color: transparent;
+}
+
+.artist-card:hover img,
+.artist-card.hover img {
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+/*
+.card img:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.card h2 {
+  animation: inherit;
+  position: relative;
+  top: 0;
+}
+.card {
+  color: hsl(324, 70%, 45%);
+  /*animation: wheelHueColor 100s infinite;*/
+/*  background-color: currentColor;
+  padding: 0;
+  max-height: 223px;
+  overflow: hidden;
+}
+@supports (background-blend-mode: overlay) {
+  .background {
+    background-image: linear-gradient(45deg, white 10%, black 90%);
+    background-blend-mode: overlay;
+  }
+}
+@keyframes wheelHueColor {
+  from, to { color: hsl(324, 70%, 45%); }
+  10%      { color: hsl(360, 65%, 45%); }
+  20%      { color: hsl( 36, 80%, 45%); }
+  30%      { color: hsl( 72, 75%, 35%); }
+  40%      { color: hsl(108, 65%, 35%); }
+  50%      { color: hsl(144, 75%, 35%); }
+  60%      { color: hsl(180, 75%, 35%); }
+  70%      { color: hsl(216, 60%, 45%); }
+  80%      { color: hsl(252, 65%, 50%); }
+  90%      { color: hsl(288, 60%, 40%); }
+}
+
+
+.card h2 {
+  margin: auto;
+  background: rgba(0,0,0,.75);
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300);
+@import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
+.card .card-image{
+    overflow: hidden;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+.card{
+    font-family: 'Roboto', sans-serif; 
+    margin-top: 10px;
+    position: relative;
+}
+
+.card .card-content {
+    padding: 10px;    
+}
+
+.card .card-content .card-title, .card-reveal .card-title{
+    font-size: 24px;
+    font-weight: 200;    
+}
+
+.card {
+  -webkit-filter: grayscale(50%);
+  filter: grayscale(50%);
+  overflow: hidden;
+  height: 250px;
+  background: no-repeat center center;
+  background-size: cover;
+}
+
+
 
 
 
