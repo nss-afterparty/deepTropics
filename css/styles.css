@@ -124,12 +124,15 @@
 
 /* Section Divider */
 section {
-  box-shadow: 0 0 0 2px black, 0 0 0 2px rgba(0,0,0,0.6), 0 0 0 3px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 4px rgb(0, 225, 255);
+  /*box-shadow: 0 0 0 2px black, 0 0 0 2px rgba(0,0,0,0.6), 0 0 0 3px #b700c0, 0 0 0 3px rgba(0,0,0,0.4), 0 0 0 3px #00180f, 0 0 0 4px rgb(0, 225, 255);*/
 }
 
 h2.section-heading {
   color: #D34A98;
   font-size: 40px;
+  width: 100%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 6px #b700c0, 0 0 0 10px rgba(0,0,0,0.4), 0 0 0 10px #00180f, 0 0 0 12px rgb(0, 225, 255);
 }
 
 .navbar-default {
