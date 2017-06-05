@@ -374,10 +374,6 @@ a.page-scroll {
      margin-left: 0; 
 }
 
-.container-fluid {
-    margin-left: 2%;
-}
-
 #myNav {
   display: none;
 }
@@ -419,6 +415,7 @@ a.page-scroll {
   width: 45%;
   background-repeat: no-repeat;
   background-position: center;
+
   background-image: url("../img/deep-tropics-header.gif");
   background-size: contain;
   -webkit-transform: translate(-50%, -50%);
