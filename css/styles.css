@@ -206,6 +206,19 @@ a.page-scroll {
     background-color: transparent;
 }
 
+/*===================[ Lineup ]===================*/
+.artist-thumbnail {
+  cursor: pointer;
+}
+
+.artist-modal-image {
+}
+
+.modal-content {
+  box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 6px #b700c0, 0 0 0 10px rgba(0,0,0,0.4), 0 0 0 10px #00180f, 0 0 0 12px rgb(0, 225, 255);
+  color: black;
+}
+
 /*===================[ MailChimp Modal ]===================*/
 #mc_embed_signup input.button {
   background-color: #63CCEC;

@@ -24,16 +24,19 @@ let createModal = function(key, artistName, artistImg, artistBio) {
     // console.log('name, artistBio, image', key, artistName, artistBio, artistImg);
 
     let html = '<div class="modal fade"' + 'id="a' + key + '"' + 'tabindex="-1" role="dialog" aria-labelledby="' + artistName + '" aria-hidden="true">';
-    html += '<div class="modal-dialog" role="document">';
+    html += '<div class="modal-dialog modal-s" role="document">';
     html += '<div class="modal-content">';
-    html += '<div class="modal-header">';
-    html += '<h5 class="modal-title"' + '>' + artistName + '</h5>';
-    html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
-    html += '<span aria-hidden="true">&times;</span>';
-    html += '</button>';
-    html += '</div>'; //header
+    // html += '<div class="modal-header">';
+    // html += '<h5 class="modal-title"' + '>' + artistName + '</h5>';
+    // html += '<button type="button" class="close" data-dismiss="modal" aria-label="Close">';
+    // html += '<span aria-hidden="true">&times;</span>';
+    // html += '</button>';
+    // html += '</div>'; //header
+    html += '<div class="artist-modal-image">' //image container
     html += '<img src="' + artistImg + '"' + '>';
+    html += '</div>' //img container END
     html += '<div class="modal-body">';
+    html += '<h3>' + artistName + '</h3>';
     html += artistBio;
     html += '</div>';
     html += '<div class="modal-footer">'; 
