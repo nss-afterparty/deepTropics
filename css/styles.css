@@ -834,9 +834,9 @@ a.page-scroll {
 }
 
 .card .card-content .card-title, .card-reveal .card-title{
-    font-size: 20px;
-    font-weight: 500;
-    padding-top: 2px;   
+  font-size: 20px;
+  font-weight: 500;
+  padding-top: 2px;   
 }
 
 .card {
@@ -846,6 +846,15 @@ a.page-scroll {
   height: 250px;
   background: no-repeat center center;
   background-size: cover;
+}
+
+.card:hover {
+  box-shadow:
+          1px 1px #53a7ea,
+          2px 2px #53a7ea,
+          3px 3px #53a7ea;
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
 }
 
 .card .card-content {
