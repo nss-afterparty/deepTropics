@@ -1,10 +1,11 @@
-p {
-  text-indent: 25px;
+.mija {
+  text-indent: 0;
 }
 
 /*===================[ ARTIST MODAL ]===================*/
 .artist-json-bio {
   margin-bottom: 0;
+  text-indent: 25px;
 }
 
 .artist-content {
@@ -31,6 +32,20 @@ p {
   left: 94%;
   color: black;
   opacity: 0.6;
+}
+
+.artist-modal-footer {
+  float: left;
+}
+
+.modal-social-icons {
+  color: #1c1b1b;
+  float: left;
+  margin: 8px;
+}
+
+.modal-social-icons:hover {
+  color: black;
 }
 
 /*===================[ NAV ]===================*/
@@ -487,6 +502,18 @@ a.page-scroll {
   }
 }
 @media only screen and (max-width: 767px) {
+
+  /*===[ Artist Cards - Mobile ]=== */
+    .card {
+      height: 210px;
+    }
+
+    .card .card-content .card-title, .card-reveal .card-title {
+        font-size: 12px;
+        font-weight: 500;
+        padding-top: 2px;
+    }
+
     .active {
       background-color: #51c9ec;
     }
