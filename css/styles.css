@@ -756,15 +756,14 @@ a.page-scroll {
 /*              Artist Cards              */
 /******************************************/
 /*.card {
-    -webkit-transition: all 0.4s ease;
-    -moz-transition: all 0.4s ease;
-    -ms-transition: all 0.4s ease;
-    -o-transition: all 0.4s ease;
-    transition: all 0.4s ease;
-    overflow: hidden;
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    -ms-transition: all 0.1s ease;
+    -o-transition: all 0.1s ease;
+    transition: all 0.1s ease;
 }
-
-.card:hover::after {
+*/
+/*.card:hover::after {
   background: cover;
   -webkit-transform: scale(1.2) rotate(-7deg);
   -moz-transform: scale(1.2) rotate(-7deg);
@@ -845,10 +844,24 @@ a.page-scroll {
   background-size: cover;
 }
 
+.card:hover {
+  border: 1px solid;
+  opacity: 0.9;
+  box-shadow: inset 0 0 20px rgba(255, 255, 255, .5), 0 0 20px rgba(255, 255, 255, .2);
+  outline-color: rgba(255, 255, 255, 0);
+  outline-offset: 15px;
+  text-shadow: 1px 1px 2px #427388; 
+}
+
 .card .card-content {
     position: absolute;
     bottom: 10px;
     width: 100%;
+}
+
+.container img{
+    max-width: 100%; 
+    height:auto;
 }
 
 
