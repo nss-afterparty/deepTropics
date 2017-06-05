@@ -1,3 +1,58 @@
+.mija {
+  text-indent: 0;
+}
+
+#a20 img {
+  width: 598px;
+}
+
+/*===================[ ARTIST MODAL ]===================*/
+.artist-json-bio {
+  margin-bottom: 0;
+  text-indent: 25px;
+}
+
+.artist-content {
+  font-weight: bolder;
+}
+
+.artist-modal-title {
+  text-align: center;
+  font-size: 35px;
+  text-shadow: -0.2px 0.2px 0 hsla(7.2, 60%, 45%, 1), -0.4px 0.4px 0 hsla(14.4, 60%, 45%, 1), -0.6px 0.6px 0 hsla(21.6, 60%, 45%, 1), -0.8px 0.8px 0 hsla(28.8, 60%, 45%, 1), -1px 1px 0 hsla(36, 60%, 45%, 1), -1.2px 1.2px 0 hsla(43.2, 60%, 45%, 1), -1.4px 1.4px 0 hsla(50.4, 60%, 45%, 1), -1.6px 1.6px 0 hsla(57.6, 60%, 45%, 1), -1.8px 1.8px 0 hsla(64.8, 60%, 45%, 1), -2px 2px 0 hsla(72, 60%, 45%, 1), -2.2px 2.2px 0 hsla(79.2, 60%, 45%, 1), -2.4px 2.4px 0 hsla(86.4, 60%, 45%, 1), -2.6px 2.6px 0 hsla(93.6, 60%, 45%, 1), -2.8px 2.8px 0 hsla(100.8, 60%, 45%, 1), -3px 3px 0 hsla(108, 60%, 45%, 1), -3.2px 3.2px 0 hsla(115.2, 60%, 45%, 1), -3.4px 3.4px 0 hsla(122.4, 60%, 45%, 1), -3.6px 3.6px 0 hsla(129.6, 60%, 45%, 1), -3.8px 3.8px 0 hsla(136.8, 60%, 45%, 1), -4px 4px 0 hsla(144, 60%, 45%, 1), -4.2px 4.2px 0 hsla(151.2, 60%, 45%, 1), -4.4px 4.4px 0 hsla(158.4, 60%, 45%, 1), -4.6px 4.6px 0 hsla(165.6, 60%, 45%, 1), -4.8px 4.8px 0 hsla(172.8, 60%, 45%, 1), -5px 5px 0 hsla(180, 60%, 45%, 1), -5.2px 5.2px 0 hsla(187.2, 60%, 45%, 1), -5.4px 5.4px 0 hsla(194.4, 60%, 45%, 1), -5.6px 5.6px 0 hsla(201.6, 60%, 45%, 1), -5.8px 5.8px 0 hsla(208.8, 60%, 45%, 1), -6px 6px 0 hsla(216, 60%, 45%, 1), -6.2px 6.2px 0 hsla(223.2, 60%, 45%, 1), -6.4px 6.4px 0 hsla(230.4, 60%, 45%, 1), -6.6px 6.6px 0 hsla(237.6, 60%, 45%, 1), -6.8px 6.8px 0 hsla(244.8, 60%, 45%, 1), -7px 7px 0 hsla(252, 60%, 45%, 1), -7.2px 7.2px 0 hsla(259.2, 60%, 45%, 1), -7.4px 7.4px 0 hsla(266.4, 60%, 45%, 1), -7.6px 7.6px 0 hsla(273.6, 60%, 45%, 1), -7.8px 7.8px 0 hsla(280.8, 60%, 45%, 1), -8px 8px 0 hsla(288, 60%, 45%, 1), -8.2px 8.2px 0 hsla(295.2, 60%, 45%, 1), -8.4px 8.4px 0 hsla(302.4, 60%, 45%, 1), -8.6px 8.6px 0 hsla(309.6, 60%, 45%, 1), -8.8px 8.8px 0 hsla(316.8, 60%, 45%, 1), -9px 9px 0 hsla(324, 60%, 45%, 1), -9.2px 9.2px 0 hsla(331.2, 60%, 45%, 1), -9.4px 9.4px 0 hsla(338.4, 60%, 45%, 1), -9.6px 9.6px 0 hsla(345.6, 60%, 45%, 1), -9.8px 9.8px 0 hsla(352.8, 60%, 45%, 1), -10px 10px 0 hsla(360, 60%, 45%, 1), 0px 0px 0px hsla(0,0%,0%,0);
+}
+
+.modal-trees {
+  display: inline-block;
+}
+
+.tree-title-container {
+  width: 100%;
+}
+
+.close {
+  position: absolute;
+  top: 1%;
+  left: 94%;
+  color: black;
+  opacity: 0.6;
+}
+
+.artist-modal-footer {
+  float: left;
+}
+
+.modal-social-icons {
+  color: #1c1b1b;
+  float: left;
+  margin: 8px;
+}
+
+.modal-social-icons:hover {
+  color: black;
+}
+
+/*===================[ NAV ]===================*/
 .nav>li>a>img {
   width: 70%;
 }
@@ -74,6 +129,7 @@ section {
 
 h2.section-heading {
   color: #D34A98;
+  font-size: 40px;
 }
 
 .navbar-default {
@@ -204,6 +260,19 @@ a.page-scroll {
 .nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
     color: #fff;
     background-color: transparent;
+}
+
+/*===================[ Lineup ]===================*/
+.artist-thumbnail {
+  cursor: pointer;
+}
+
+.artist-modal-image {
+}
+
+.modal-content {
+  box-shadow: 0 0 0 3px black, 0 0 0 5px rgba(0,0,0,0.6), 0 0 0 6px #b700c0, 0 0 0 10px rgba(0,0,0,0.4), 0 0 0 10px #00180f, 0 0 0 12px rgb(0, 225, 255);
+  color: black;
 }
 
 /*===================[ MailChimp Modal ]===================*/
@@ -385,7 +454,8 @@ a.page-scroll {
 }
 
 #lineup-headline {
-  margin-top: 8%;
+  margin-top: 2%;
+  font-size: 50px;
 }
 
 #lineup {
@@ -435,6 +505,18 @@ a.page-scroll {
   }
 }
 @media only screen and (max-width: 767px) {
+
+  /*===[ Artist Cards - Mobile ]=== */
+    .card {
+      height: 210px;
+    }
+
+    .card .card-content .card-title, .card-reveal .card-title {
+        font-size: 12px;
+        font-weight: 500;
+        padding-top: 2px;
+    }
+
     .active {
       background-color: #51c9ec;
     }

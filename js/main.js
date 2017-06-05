@@ -63,37 +63,6 @@ $(window).load(function() {
   $('#myCarousel .list-group-item').outerHeight(triggerheight);
 });
 
-//=================================[ ARTIST GALLERY ]====================================//
-$('.artist-thumbnail').click(function($e){
-    $e.preventDefault();
-    $('.modal-body').empty();
-    var title = $(this).parent('a').attr("title");
-    $('.modal-title').html(title);
-    $($(this).parents('div').html()).appendTo('.modal-body');
-    $('#artistModal').modal({show:true});
-});
-
-$('#next-btn').click(function() {
- var link = $('.modal-body a');
-  var number = parseInt(link.attr('title').match(/\S+$/));
-  number++;
-  if(number === 13) {
-  number = 1;
-  }
-  $('.modal-body').html($('#artist-container').find('a[title="Image ' + number + '"]').parent('div').html());
-  $('.modal-title').text('Image ' + number);
-});
-$('#prev-btn').click(function() {
- var link = $('.modal-body a');
-  var number = parseInt(link.attr('title').match(/\S+$/));
-  number--;
-  if(number === 0) {
-  number = 12;
-  }
-  $('.modal-body').html($('#artist-container').find('a[title="Image ' + number + '"]').parent('div').html());
-  $('.modal-title').text('Image ' + number);
-});
-
 //=================================[ BOOTSTRAP GALLERY ]====================================//
 $('.thumbnail').click(function($e){
     $e.preventDefault();

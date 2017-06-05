@@ -35,36 +35,51 @@
                                 Desktop NAV
       \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
         <ul id="desktop-nav" class="nav navbar-nav">
+        <!-- TICKETS -->
           <li class="nav-el">
             <a target="_blank" href="https://www.ticketfly.com/purchase/event/1501104"><img class="nav-text-img" src="img/tickets.png"></a>
           </li>
+          <!-- LINEUP -->
           <li class="nav-el">
             <a class="page-scroll" href="#lineup"><img class="nav-text-img" src="img/lineup.png"></a>
           </li>
+          <!-- ABOUT -->
           <li class="dropdown nav-el btn-group">
             <a href="#about" class="dropdown-toggle page-scroll" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><img class="nav-text-img" src="img/about.png"> <span class="caret"></span></a>
             <ul style="background-color: white" class="dropdown-menu">
               <li><a class="page-scroll" href="#about"><span class="about-dropdown-text">DEEP TROPICS</span></a></li>
               <li><a class="page-scroll" href="#faq"><span class="about-dropdown-text">FAQ</a></span></li>
+              <li><a class="page-scroll" href="#directions"><span class="about-dropdown-text">DIRECTIONS</span></a></li>
               <li><a class="page-scroll" href="#volunteer"><span class="about-dropdown-text">VOLUNTEER</span></a></li>
               <li><a class="page-scroll" href="#partners"><span class="about-dropdown-text">PARTNERS</span></a></li>
             </ul>
           </li>
+          <!-- DEEP TOPICS -->
           <li class="nav-el">
             <a class="page-scroll" href="#deepTopics"><img id="topics-img" class="nav-text-img" src="img/deepTopics.png"></a>
           </li>
+          <!-- HOME LOGO BTN -->
           <li class="navbar-brand">
             <a class="page-scroll" href="#home"><img class="nav-text-img-dt nav-change-on-scroll" id="deep-nav" src="img/DT17_PROFILE.jpg"></a>
           </li>
+          <!-- MEDIA -->
           <li class="nav-el">
             <a class="page-scroll" href="#media"><img class="nav-text-img" src="img/media.png"></a>
           </li>
-          <li class="nav-el">
-            <a class="page-scroll" href="#experience"><img id="experience-img" class="nav-text-img" src="img/experience.png"></a>
+          <!-- EXPERIENCE -->
+          <li class="nav-el dropdown btn-group">
+            <a href="#experience" class="page-scroll dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" ><img id="experience-img" class="nav-text-img" src="img/experience.png"><span class="caret"></span></a>
+            <ul style="background-color: white" class="dropdown-menu">
+              <li><a class="page-scroll" href="#experience"><span class="about-dropdown-text">Activations</span></a></li>
+              <li><a class="page-scroll" href="#experience"><span class="about-dropdown-text">Sustainability</a></span></li>
+              <li><a class="page-scroll" href="#experience"><span class="about-dropdown-text">Vendors</span></a></li>
+            </ul>
           </li>
+          <!-- CONNECT -->
           <li class="nav-el">
             <a class="page-scroll" href="#connect"><img class="nav-text-img" src="img/connect.png"></a>
           </li>
+          <!-- SHOP -->
           <li class="nav-el">
             <a target="_blank" href="https://paom.com/designer/DeepTropics"><img class="nav-text-img" src="img/shop.png"></a>
           </li>
@@ -171,15 +186,22 @@
         <div id="dt"></div>
         <!-- End Icon library -->
   </header>
+
+<section id="admat-section">
+  <div class="container">
+  <!-- ADMAT -->
+    <img id="admat" src="img/DT_ADMAT.png">
+  </div>
+</section>
   <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
                             Lineup
   \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\  -->
   <section id="lineup">
     <div class="container">
-      <img id="admat" src="img/DT_ADMAT.png">
-      <h2 id="lineup-headline" class="section-heading" >LINEUP</h2>
+    <!-- ADMAT -->
+      <h2 id="lineup-headline" class="section-heading">LINEUP</h2>
     </div>
-    <!-- Lineup Filters -->
+    <!-- LINEUP NAV -->
     <ul class="nav nav-pills nav-justified">
       <li class="active"><a data-toggle="tab" href="#main"><h3 class="lineup-nav-text">Main Event</h3></a></li>
       <li><a data-toggle="tab" href="#preparty"><h3 class="lineup-nav-text">Preparty</h3></a></li>
@@ -201,29 +223,9 @@
     
       <!-- Artist Row -->
       <!-- /.row -->
-      </div>
     </div>
 
-      <div id="artistModal" class="modal fade" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">×</button>
-            <h3 class="modal-title">Heading</h3>
-          </div>
-          <div class="modal-body">
-              
-          </div>
-          <div class="modal-footer">
-            <button id="prev-btn" class="btn btn-warning">Prev</button>
-                <button id="next-btn" class="btn">Next</button>
-            <button class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-         </div>
-        </div>
-      </div>
 
-    </div>
 
     <!--  \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
                               VISUAL ARTISTS
@@ -267,12 +269,13 @@
         <div class="col-sm-2 sidenav">
         </div>
         <div class="col-sm-8 text-left">
-          <h2 class="section-heading">ABOUT</h2>
-          <p>Deep Tropics is a two-day music, arts and lifestyle festival that launches August 5th & 6th, 2017. The War Memorial Auditorium & Courtyard in Nashville, TN will host 2,500 people per day (Ages 21 and up) with two stages of music. The programming includes forward thinking artists, musicians, muralists and tastemakers from all over the world. Deep Tropic’s mission is to create an experiential brand that re-connects our community with authentic culture.
+          <h2 style="text-align: center;" class="section-heading">ABOUT</h2>
+          <p style="text-indent: 25px;">Deep Tropics is a two-day music, art and style festival coming to Nashville, TN on August 5 & 6, 2017. The War Memorial Auditorium & Courtyard will host 2,500 people per day (Ages 21+) with two stages of music. The programming includes forward-thinking artists, musicians, muralists and tastemakers from all over the world.</p>
           <br>
-          <br>
-          True to theme, we are transforming the traditional venue landscape into a lush tropical ecosystem and adult playground. Deep Tropics will facilitate organic food and beverages in addition to generating a sustainable festival infrastructure. Discover a deeper sense of self, a deeper connection with community and a deeper experience through music and art.</p>
-          <hr>
+          <p style="text-indent: 25px;">Deep Tropic’s mission is to create an experiential brand that re-connects our community with authentic culture. True to theme, we are transforming the traditional venue landscape into a lush tropical ecosystem. Deep Tropics will facilitate organic food and beverages in addition to generating a sustainable festival infrastructure. Discover a deeper sense of self, a deeper connection with community and a deeper experience through music and art.</p>
+          <hr style="margin-top:4%;" id="directions">
+          <h4 style="text-align: center; padding-top:5%; font-size:30px;" class="blueText">DIRECTIONS</h4>
+          <iframe id="google-maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3221.0904889861417!2d-86.78593838493009!3d36.16435258008447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886466f7954915eb%3A0x3d03b1c138e4c96a!2sWar+Memorial+Auditorium!5e0!3m2!1sen!2sus!4v1496662320129" width="600" height="450" frameborder="0" style="border:0; width: 80%; max-height: 350px; margin-left: 10%;" allowfullscreen></iframe>
         </div>
         <div class="col-sm-2 sidenav">
         </div>
@@ -376,17 +379,23 @@
     <div class="container">
       <h2 class="section-heading">EXPERIENCE</h2>
     </div>
-    <div class="row">
+    <div id="activations" class="row">
+      <h4 class="blueText">Activations & Programming</h4>
       <div class="col-sm-8 col-sm-offset-2">
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Courtyard Art Gallery | Tranquil Temple | Lounge Areas | Dubwise Dinner Time 
+        <br/>MORE TO BE ANNOUNCED!</p>
       </div>
     </div>
-    <div class="container">
-      <h2 class="section-heading">TRAVEL</h2>
+    <div id="sustainability" class="row">
+      <h4 class="blueText">Sustainability</h4>
+      <div style="text-align: left;" class="col-sm-8 col-sm-offset-2">
+        <p style="text-indent: 25px;">Deep Tropics wove sustainability into every layer of preparation and planning. With a vision and commitment, we are strengthening community, supporting local economy, educating patrons, conserving energy and water, minimizing waste and providing healthy, organic food and beverage options. Collaboration with our sponsors, vendors, volunteers and forward-thinking partners has made Deep Tropics goal of sustainability possible.</p>
+      </div>
     </div>
-    <div class="row">
-      <div class="col-sm-8 col-sm-offset-2">
-        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <div id="vendors" class="row">
+      <h4 class="blueText">VENDORS</h4>
+      <div style="text-align: left;" class="col-sm-8 col-sm-offset-2">
+        <p style="text-align: center;">COMING SOON!</p>
       </div>
     </div>
   </section>
