@@ -350,7 +350,7 @@ a.page-scroll {
   width: 45%;
   background-repeat: no-repeat;
   background-position: center;
-  background-image: url("../img/Final_Maybe.gif");
+  background-image: url("../img/deep-tropics-header.gif");
   background-size: contain;
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -370,7 +370,7 @@ a.page-scroll {
     top: 0;
     left: 0;
     z-index: 0;
-    background: url("../img/background.png") no-repeat center center;
+    background: url("../img/background-dan.jpg") no-repeat center center;
     background-size: cover;
     -ms-transform: scale(1.1);
     -webkit-transform: scale(1.1);
