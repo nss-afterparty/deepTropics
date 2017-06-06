@@ -1,8 +1,9 @@
 "use strict";
 (function() {
 
+
 //=================================[ Lineup Card Creation ]====================================//
-$.getJSON( "/lineup.json", function( data ) {
+$.getJSON( "lineup.json", function( data ) {
     console.log('data', data);
 
   $.each( data, function( key, val ) {
