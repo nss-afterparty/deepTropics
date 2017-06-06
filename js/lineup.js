@@ -1,9 +1,9 @@
 "use strict";
 (function() {
 
+
 //=================================[ Lineup Card Creation ]====================================//
 $.getJSON( "lineup.json", function( data ) {
-
   $.each( data, function( key, val ) {
     var artistName = val.artist.toUpperCase();
     var artistImg = val.image;
