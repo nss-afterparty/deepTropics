@@ -691,9 +691,10 @@ h2.section-heading {
 
     #dt {
       height: 100%;
-      width: 75%;
+      width: 85%;
     }
 
+    /*=====================[ ARTIST CARDS ]================ */
     #desktop-nav {
         display: none;
     }
