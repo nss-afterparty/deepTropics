@@ -704,6 +704,8 @@ h2.section-heading {
 
     #mobile-nav {
         display: list-item;
+        font-size: 16px;
+        font-weight: bolder;
     }
 
     .navbar-collapse { 
@@ -712,7 +714,6 @@ h2.section-heading {
       background-size: cover;
     }
 
-    /* For mobile phones: */
     .nav>li>a>img {
       width: 100%;
       text-align: center;
@@ -725,7 +726,7 @@ h2.section-heading {
 
     .navbar-default .navbar-collapse {
       margin-top: 0px;
-      background-color: #51c9ec;
+      background-color: #5ad5ec;
       width: 100%;
       margin: 0;
     }
