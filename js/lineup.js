@@ -4,13 +4,10 @@
 
 //=================================[ Lineup Card Creation ]====================================//
 $.getJSON( "lineup.json", function( data ) {
-    console.log('data', data);
-
   $.each( data, function( key, val ) {
-    console.log('value', val);
-    let artistName = val.artist.toUpperCase();
-    let artistImg = val.image;
-    let artistBio = val.bio;
+    var artistName = val.artist.toUpperCase();
+    var artistImg = val.image;
+    var artistBio = val.bio;
     createModal(key, artistName, artistImg, artistBio, val);
 
 
@@ -21,11 +18,10 @@ $.getJSON( "lineup.json", function( data ) {
 });
 
 //=================================[ Modal Creation ]====================================//
-let createModal = function(key, artistName, artistImg, artistBio, val) {
-    // console.log('name, artistBio, image', key, artistName, artistBio, artistImg);
+var createModal = function(key, artistName, artistImg, artistBio, val) {
 
     //====================[ ARTIST MODAL ]=========================//
-    let html = '<div class="modal fade"' + 'id="a' + key + '"' + 'tabindex="-1" role="dialog" aria-labelledby="' + artistName + '" aria-hidden="true">';
+    var html = '<div class="modal fade"' + 'id="a' + key + '"' + 'tabindex="-1" role="dialog" aria-labelledby="' + artistName + '" aria-hidden="true">';
     html += '<div class="modal-dialog modal-s" role="document">';
     html += '<div class="modal-content artist-content">';
     // html += '<div class="modal-header">';
@@ -79,7 +75,6 @@ let createModal = function(key, artistName, artistImg, artistBio, val) {
 
 //=================================[ Modal Listner ]====================================//
 $('#artist-container').on('click', '.artist-thumbnail', function(){
-    console.log('this', event.target.id);
     $('#a' + event.target.id).modal({show:true});
 });
 
