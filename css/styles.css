@@ -518,262 +518,6 @@ h2.section-heading {
   display: none;
 }
 
-/*===================[ MOBILE ]===================*/
-@media only screen and (max-width: 1330px) {
-  #admat  {
-    width: 90%;
-  }
-
-  .navbar-default .navbar-header .navbar-toggle {
-      font-weight: 700;
-      font-size: 26px;
-      background-color: black;
-      color: white;
-      border: black;
-      text-transform: uppercase;
-  } 
-
-  .smallOne {
-    display: inline-block;
-    width: 105%;
-    margin-top: 15%;
-  }
-
-  #mobile-logo {
-    display: none;
-  }
-
-  .container-fluid {
-      padding-right: 10px;
-      padding-left: 10px;
-      margin-right: auto;
-      margin-left: auto;
-  }
-}
-@media only screen and (max-width: 767px) {
-  /* ADMAT */
-  #admat-section {
-    width: 100%;
-    padding: 4% 2px 15px 2px;
-  }
-
-  /* tickets */
-  #ticket-fun-img {
-    width: 35%;
-  }
-
-  /*===[ Artist Cards - Mobile ]=== */
-    .card {
-      height: 210px;
-    }
-
-    .card .card-content .card-title, .card-reveal .card-title {
-        font-size: 12px;
-        font-weight: 500;
-        padding-top: 2px;
-    }
-
-    .active {
-      background-color: #51c9ec;
-    }
-
-    #dt {
-      height: 100%;
-      width: 75%;
-    }
-
-    #desktop-nav {
-        display: none;
-    }
-
-    #mobile-nav {
-        display: list-item;
-    }
-
-    .navbar-collapse { 
-      max-height: 100% !important; 
-      /*background-image: url(../img/background-modal.png);*/
-      background-size: cover;
-    }
-
-    /* For mobile phones: */
-    .nav>li>a>img {
-      width: 100%;
-      text-align: center;
-    }
-
-    .nav-el{
-      margin-left: 5%;
-      max-width: 150px;
-    }
-
-    .navbar-default .navbar-collapse {
-      margin-top: 0px;
-      background-color: #51c9ec;
-      width: 100%;
-      margin: 0;
-    }
-
-    header .header-content {
-      margin-top: 14%;
-    }
-
-    #chimp-container {
-      padding-left: 0%;
-      padding-right: 0%;
-    }
-
-   .container-fluid {
-       padding-right: 10px;
-       padding-left: 10px;
-       margin-right: auto;
-       margin-left: auto;
-   }
-
-    #mobile-logo {
-      width: 28%;
-      padding-left: 30px;
-      display: inline;
-    }
-
-/*=========================[ TOPICS - Mobile ]====================== */
-     #topics-skull {
-      width: 70%;
-     }
-}
-
-@media only screen and (max-width: 700px) {
-  #mobile-logo {
-    width: 32%;
-  }
-}
-
-@media only screen and (max-width: 650px) {
-  #mobile-logo {
-    width: 36%;
-  }
-}
-
-@media only screen and (max-width: 612px) {
-
-    .faqText {
-      list-style-type: square;
-    }
-
-    #mobile-logo {
-      width: 36%;
-    }
-}
-
-@media only screen and (max-width: 550px) {
-  #mobile-logo {
-    width: 36%;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  #mobile-logo {
-    width: 42%;
-  }
-}
-
-@media only screen and (max-width: 450px) {
-  #mobile-logo {
-    width: 48%;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  #mobile-logo {
-    width: 54%;
-  }
-}
-
-@media (min-width: 1300px) {
-  html,body
-  {
-      background: black;
-  } 
-}
-
-@media (min-width: 1500px) {
-  .container-fluid {
-    margin-left: 12.75%;
-    margin-right: 11.5%;
-  }
-}
-
-@media (min-width: 1500px) {
-  .container-fluid {
-    margin-left: 13%;
-    margin-right: 11.5%;
-  }
-}
-
-
-/******************************************/
-/*           MOBILE X  Animation          */
-/******************************************/
-/* btn */
-.mobile-menu {
-  position: relative;
-  display:  inline-block;
-  width: 15px;
-  height: 15px;
-  margin: 20px;
-}
-.mobile-menu span {
-  margin: 0 auto;
-  position: relative;
-  top: 12px;
-}
-.mobile-menu span:before, .mobile-menu span:after {
-  position: absolute;
-  content: '';
-}
-.mobile-menu span, .mobile-menu span:before, .mobile-menu span:after {
-  width: 30px;
-  height: 6px;
-  background-color: white;
-  display: block;
-}
-.mobile-menu span:before {
-  margin-top: -12px;
-}
-.mobile-menu span:after {
-  margin-top: 12px;
-}
-
-/* example 5 */
-.example5 span {
-  -webkit-transition-duration: 0s; transition-duration: 0s;
-  -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
-}
-.example5.open span {
-  background-color: rgba(0,0,0,0.0);
-  -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
-}
-.example5 span:before {
-  -webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
-  -webkit-transition-duration: 0.2s; transition-duration: 0.2s;
-  -webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
-}
-.example5.open span:before {
-  margin-top: 0;
-  -webkit-transform: rotate(45deg); transform: rotate(45deg);
-  -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
-}
-.example5 span:after {
-  -webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
-  -webkit-transition-duration: 0.2s; transition-duration: 0.2s;
-  -webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
-}
-.example5.open span:after {
-  margin-top: 0;
-  -webkit-transform: rotate(-45deg); transform: rotate(-45deg);
-  -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
-}
-
 /******************************************/
 /*             Artist Border              */
 /******************************************/
@@ -887,7 +631,261 @@ h2.section-heading {
     height:auto;
 }
 
+/******************************************/
+/*                 MOBILE                 */
+/******************************************/
+@media only screen and (max-width: 1330px) {
+  #admat  {
+    width: 90%;
+  }
+
+  .navbar-default .navbar-header .navbar-toggle {
+      font-weight: 700;
+      font-size: 20px;
+      background-color: black;
+      color: white;
+      border: black;
+      text-transform: uppercase;
+      margin-top: 0;
+  } 
+
+  .smallOne {
+    display: inline-block;
+    width: 105%;
+    margin-top: 15%;
+  }
+
+  #mobile-logo {
+    display: none;
+  }
+
+  .container-fluid {
+      padding-right: 10px;
+      padding-left: 10px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+}
+@media only screen and (max-width: 767px) {
+  /*======================[ ADMAT ]=======================*/
+  #admat-section {
+    width: 100%;
+    padding: 4% 2px 15px 2px;
+  }
+
+  /*======================[ TICKETS ]=======================*/
+  #ticket-fun-img {
+    width: 35%;
+  }
+
+  /*=====================[ ARTIST CARDS ]================ */
+    .card {
+      height: 175px;
+    }
+
+    .card .card-content .card-title, .card-reveal .card-title {
+        font-size: 13px;
+        font-weight: 500;
+        padding-top: 2px;
+    }
+
+    #dt {
+      height: 100%;
+      width: 75%;
+    }
+
+    #desktop-nav {
+        display: none;
+    }
+
+    #mobile-nav {
+        display: list-item;
+    }
+
+    .navbar-collapse { 
+      max-height: 100% !important; 
+      /*background-image: url(../img/background-modal.png);*/
+      background-size: cover;
+    }
+
+    /* For mobile phones: */
+    .nav>li>a>img {
+      width: 100%;
+      text-align: center;
+    }
+
+    .nav-el{
+      margin-left: 5%;
+      max-width: 150px;
+    }
+
+    .navbar-default .navbar-collapse {
+      margin-top: 0px;
+      background-color: #51c9ec;
+      width: 100%;
+      margin: 0;
+    }
+
+    header .header-content {
+      margin-top: 14%;
+    }
+
+    #chimp-container {
+      padding-left: 0%;
+      padding-right: 0%;
+    }
+
+   .container-fluid {
+       padding-right: 10px;
+       padding-left: 10px;
+       margin-right: auto;
+       margin-left: auto;
+   }
+
+    #mobile-logo {
+      width: 28%;
+      padding-left: 30px;
+      display: inline;
+    }
+
+/*=========================[ TOPICS - Mobile ]====================== */
+     #topics-skull {
+      width: 70%;
+     }
+}
+
+@media only screen and (max-width: 700px) {
+  #mobile-logo {
+    width: 32%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #mobile-logo {
+    width: 36%;
+  }
+}
+
+@media only screen and (max-width: 612px) {
+
+    .faqText {
+      list-style-type: square;
+    }
+
+    #mobile-logo {
+      width: 36%;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+  #mobile-logo {
+    width: 36%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #mobile-logo {
+    width: 42%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  #mobile-logo {
+    width: 48%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  #mobile-logo {
+    width: 54%;
+  }
+
+  .card {
+    height: 150px;
+  }
+}
+
+@media (min-width: 1300px) {
+  html,body
+  {
+      background: black;
+  } 
+}
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    margin-left: 12.75%;
+    margin-right: 11.5%;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container-fluid {
+    margin-left: 13%;
+    margin-right: 11.5%;
+  }
+}
 
 
+/******************************************/
+/*           MOBILE X  Animation          */
+/******************************************/
+/* btn */
+.mobile-menu {
+  position: relative;
+  display:  inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 20px;
+}
+.mobile-menu span {
+  margin: 0 auto;
+  position: relative;
+  top: 12px;
+}
+.mobile-menu span:before, .mobile-menu span:after {
+  position: absolute;
+  content: '';
+}
+.mobile-menu span, .mobile-menu span:before, .mobile-menu span:after {
+  width: 30px;
+  height: 6px;
+  background-color: white;
+  display: block;
+}
+.mobile-menu span:before {
+  margin-top: -12px;
+}
+.mobile-menu span:after {
+  margin-top: 12px;
+}
 
-
+/* example 5 */
+.example5 span {
+  -webkit-transition-duration: 0s; transition-duration: 0s;
+  -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+}
+.example5.open span {
+  background-color: rgba(0,0,0,0.0);
+  -webkit-transition-delay: 0.2s; transition-delay: 0.2s;
+}
+.example5 span:before {
+  -webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
+  -webkit-transition-duration: 0.2s; transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
+}
+.example5.open span:before {
+  margin-top: 0;
+  -webkit-transform: rotate(45deg); transform: rotate(45deg);
+  -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
+.example5 span:after {
+  -webkit-transition-property: margin, -webkit-transform; transition-property: margin, transform;
+  -webkit-transition-duration: 0.2s; transition-duration: 0.2s;
+  -webkit-transition-delay: 0.2s, 0s; transition-delay: 0.2s, 0s;
+}
+.example5.open span:after {
+  margin-top: 0;
+  -webkit-transform: rotate(-45deg); transform: rotate(-45deg);
+  -webkit-transition-delay: 0s, 0.2s; transition-delay: 0s, 0.2s;
+}
